@@ -1,0 +1,47 @@
+.root {
+    position: relative;
+    width: 193px;
+    height: 57px;
+    align-items: flex-start;
+    border-radius: 30px;
+    background-color: #e787d2;
+    overflow: hidden;
+    box-shadow: 0px 4px 4px 0px #00000040;
+}
+
+.group1 {
+    position: absolute;
+    left: 6.31px;
+    top: -66px;
+    width: 275.2466px;
+    height: 176.8113px;
+    overflow: visible;
+}
+
+.icon {
+    width: 100%;
+    height: 100%;
+}
+
+.lienHeNgay {
+    color: #000;
+    font-size: 16px;
+    font-family: DM Sans, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+        'Liberation Sans', sans-serif;
+    position: absolute;
+    left: 30px;
+    top: 18px;
+    width: min-content;
+    height: min-content;
+    white-space: nowrap;
+    flex-direction: column;
+}
+
+.line {
+    position: absolute;
+    left: 135px;
+    top: 18px;
+    width: 28px;
+    height: 20px;
+    align-items: flex-start;
+}

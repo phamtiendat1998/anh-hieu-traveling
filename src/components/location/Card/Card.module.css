@@ -1,0 +1,138 @@
+.iconlyBoldLocation.iconlyBoldLocation {
+  width: 12px;
+  height: 12px;
+}
+
+.location.location {
+  left: 1.75px;
+  top: 1px;
+  width: 8.5px;
+  height: 10px;
+}
+
+.location {
+  left: 1.75px;
+  top: 1px;
+  width: 8.5px;
+  height: 10px;
+}
+
+.icon {
+  width: 100%;
+  height: 100%;
+}
+
+.root {
+  position: relative;
+  width: 296px;
+  height: 332px;
+  cursor: pointer;
+}
+
+.boder {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 296px;
+  height: 332px;
+  outline: solid 1px #fff;
+  outline-offset: -1px;
+  border-radius: 16px;
+  background-color: #baeaf74a;
+  box-shadow: 0px 0px 2px 0px #f2ede8;
+  backdrop-filter: blur(2px);
+}
+
+.image {
+  position: absolute;
+  left: 5.4054%;
+  right: 5.4054%;
+  top: 4.8193%;
+  bottom: 40.9639%;
+  width: 264px;
+  height: 180px;
+  border-radius: 8px;
+  box-shadow: 0px 6px 16px 0px #00000005;
+}
+
+.image img{
+  object-fit: cover;
+  border-radius: 15px;
+}
+
+.info {
+  position: absolute;
+  left: 5.4054%;
+  right: 6.0811%;
+  top: 63.8554%;
+  bottom: 12.0482%;
+  width: 262px;
+  height: min-content;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+}
+
+.frame30 {
+  width: min-content;
+  height: min-content;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+}
+
+.frame11 {
+  width: min-content;
+  height: min-content;
+  align-items: center;
+  gap: 4px;
+}
+
+.tPKonTum {
+  color: #8f8f8f;
+  font-size: 10px;
+  line-height: 140%;
+  font-family: Lato, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  letter-spacing: 0.01em;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+
+.frame26 {
+  width: min-content;
+  height: min-content;
+  flex-direction: column;
+}
+
+.mangEn {
+  color: #333;
+  font-size: 16px;
+  line-height: 140%;
+  font-weight: bold;
+  font-family: Lato, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  letter-spacing: 0.5px;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+
+.AtXe {
+  color: #42a7c3;
+  font-size: 14px;
+  line-height: 140%;
+  font-weight: bold;
+  font-family: Lato, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  letter-spacing: 0.0125em;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}

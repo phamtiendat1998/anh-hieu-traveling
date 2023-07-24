@@ -1,0 +1,23 @@
+.root {
+  transform-origin: top left;
+  position: absolute;
+  left: -5.3918%;
+  right: -14.6082%;
+  top: 110.2728%;
+  bottom: -130.2728%;
+  align-items: flex-start;
+  overflow: hidden;
+  transform: matrix(0, -1, 1, 0, 0, 0);
+}
+.vector {
+  position: absolute;
+  left: 16.6667%;
+  right: 16.6667%;
+  top: 8.3333%;
+  bottom: 12.5%;
+  overflow: visible;
+}
+.icon {
+  width: 100%;
+  height: 100%;
+}

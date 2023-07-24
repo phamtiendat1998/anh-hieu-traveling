@@ -1,0 +1,11 @@
+.nav {
+    height: 112px;
+    width: 100%;
+}
+
+.nav p {
+    font-size: 36px;
+    color: var(--primary-color);
+    font-family: 'Roboto';
+    font-weight: bold;
+}
