@@ -83,15 +83,6 @@ export const images: CustomImage[] = [
     caption: "Big Ben (Tom Eversley - isorepublic.com)",
   },
   {
-    src: "https://c7.staticflickr.com/9/8785/28687743710_3580fcb5f0_b.jpg",
-    original: "https://c7.staticflickr.com/9/8785/28687743710_3580fcb5f0_b.jpg",
-    alt: "Red Zone - Paris",
-    width: 320,
-    height: 113,
-    tags: [{ value: "People", title: "People" }],
-    caption: "Red Zone - Paris (Tom Eversley - isorepublic.com)",
-  },
-  {
     src: "https://c6.staticflickr.com/9/8520/28357073053_cafcb3da6f_b.jpg",
     original: "https://c6.staticflickr.com/9/8520/28357073053_cafcb3da6f_b.jpg",
     alt: "Wood Glass",

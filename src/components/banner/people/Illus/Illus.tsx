@@ -33,7 +33,7 @@ export const Illus: FC<Props> = memo(function Illus(props = {}) {
           <FrameIcon className={classes.icon4} />
         </div>
       </div>
-      <div className={classes.rectangle8}></div>
+      {/* <div className={classes.rectangle8}></div>
       <div className={classes.rectangle9}></div>
       <div className={classes.frame12}>
         <div className={classes.nuiLuaChuAngYa}>Núi lửa Chư Đăng Ya</div>
@@ -70,7 +70,7 @@ export const Illus: FC<Props> = memo(function Illus(props = {}) {
           />
           <div className={classes.pleikuGiaLai}>Pleiku, Gia lai</div>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 });

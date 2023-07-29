@@ -12,9 +12,7 @@ interface Props {
 export const Phone: FC<Props> = memo(function Phone(props = {}) {
     return (
         <div className={`${resets.clapyResets} ${classes.root}`}>
-            <div className={classes.vector}>
-                <VectorIcon className={classes.icon} />
-            </div>
+            <VectorIcon className={classes.icon} />
         </div>
     );
 });

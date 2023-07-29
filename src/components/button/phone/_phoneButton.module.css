@@ -1,8 +1,10 @@
 .root {
+    display: flex;
     position: relative;
     width: 193px;
     height: 57px;
-    align-items: flex-start;
+    align-items: center;
+    justify-content: center;
     border-radius: 30px;
     background-color: #e787d2;
     overflow: hidden;
@@ -11,10 +13,10 @@
 
 .group1 {
     position: absolute;
-    left: 6.31px;
-    top: -66px;
-    width: 275.2466px;
-    height: 176.8113px;
+    left: -27%;
+    top: -38%;
+    width: 120%;
+    height: 164%;
     overflow: visible;
 }
 
@@ -25,23 +27,51 @@
 
 .lienHeNgay {
     color: #000;
-    font-size: 16px;
+    font-size: 1rem;
     font-family: DM Sans, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
         'Liberation Sans', sans-serif;
-    position: absolute;
-    left: 30px;
-    top: 18px;
-    width: min-content;
-    height: min-content;
     white-space: nowrap;
-    flex-direction: column;
+    z-index: 100;
+    font-weight: 600;
+    margin-right: 10px;
 }
 
 .line {
-    position: absolute;
-    left: 135px;
-    top: 18px;
-    width: 28px;
-    height: 20px;
-    align-items: flex-start;
+    position: relative;
+    z-index: 100;
+}
+
+@media only screen and (max-width: 576px) {
+    .root {
+        width: 96px;
+        height: 28.5px;
+    }
+}
+
+@media only screen and (min-width: 576px) {
+    .root {
+        width: 115px;
+        height: 34px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .root {
+        width: 135px;
+        height: 40px;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .root {
+        width: 154px;
+        height: 45px;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .root {
+        width: 173px;
+        height: 51px;
+    }
 }

@@ -13,12 +13,12 @@ interface Props {
 export const PhoneButton: FC<Props> = memo(function PhoneButton(props = {}) {
   return (
     <div className={`${resets.clapyResets} ${classes.root}`}>
-      <div className={classes.group1}>
-        <Group1Icon className={classes.icon} />
-      </div>
-      <div className={classes.lienHeNgay}>Liên hệ ngay</div>
+      <p className={classes.lienHeNgay}>Liên hệ ngay</p>
       <div className={classes.line}>
         <Phone />
+      </div>
+      <div className={classes.group1}>
+        <Group1Icon className={classes.icon} />
       </div>
     </div>
   );

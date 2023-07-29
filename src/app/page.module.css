@@ -1,5 +1,5 @@
 .main {
-    padding: 0 220px;
+    padding: 0 8.27vw;
     position: relative;
     overflow: hidden;
 }
@@ -15,13 +15,13 @@
 
 .banner>.left>p:first-child {
     font-family: 'Times New Roman', Times, serif;
-    font-size: 56px;
+    font-size: 3.5rem;
     line-height: 115%;
 }
 
 .banner>.left>span {
     font-family: 'Poppins';
-    font-size: 16px;
+    font-size: 1.5rem;
     color: #333333;
     width: 70%;
 }
@@ -37,31 +37,40 @@
 }
 
 .popular>p {
-    font-size: 36px;
+    font-size: 2.5rem;
     font-weight: bold;
 }
 
 .popular>span {
-    font-size: 20px;
+    font-size: 1.5rem;
 }
 
 .why {
     padding: 88px 0;
 }
 
-.why p,
-.why span {
+.why .left,
+.why .right {
+    width: 100%;
+}
+
+.why .right>img {
+    width: 80%;
+}
+
+.why .right>p,
+.why .right>span {
     font-family: 'Lato';
     line-height: 140%;
 }
 
-.why p {
-    font-size: 36px;
+.why .right>p {
+    font-size: 2.5rem;
     font-weight: bold;
 }
 
-.why span {
-    font-size: 20px;
+.why .right>span {
+    font-size: 1.5rem;
 }
 
 .images {
@@ -75,14 +84,14 @@
 }
 
 .images>p {
-    font-size: 36px;
+    font-size: 2.5rem;
     font-weight: bold;
 }
 
 .images>span {
-    font-size: 20px;
+    font-size: 1.5rem;
 }
 
-.images>.gallery{
+.images>.gallery {
     margin-top: 50px;
 }

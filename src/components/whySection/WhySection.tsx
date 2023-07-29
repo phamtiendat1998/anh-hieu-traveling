@@ -24,8 +24,8 @@ export const WhySection: FC<Props> = memo(function WhySection(props: Props) {
         {props.type == 3 && (<PackageIcon className={classes.icon2} />)}
       </div>
       <div className={classes.content}>
-        <div className={classes.title}>{props.title}</div>
-        <div className={classes.sub}>{props.sub}</div>
+        <p className={classes.title}>{props.title}</p>
+        <p className={classes.sub}>{props.sub}</p>
       </div>
     </div>
   );
