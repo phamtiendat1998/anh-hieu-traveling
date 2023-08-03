@@ -1,5 +1,5 @@
 .footer {
-    padding: 100px 200px;
+    padding: 100px 5vw;
     height: 700px;
     width: 100%;
     position: relative;
@@ -23,7 +23,7 @@
 
 .info {
     padding: 40px;
-    width: calc(100% - 200px);
+    width: calc(100% - 5vw);
     height: 50%;
     position: absolute;
     backdrop-filter: blur(20px);
@@ -39,4 +39,9 @@
     font-size: 2.5rem;
     font-family: 'Roboto';
     font-weight: bold;
+}
+
+.sub{
+    font-size: 1.5rem;
+    font-family: 'Roboto'; 
 }

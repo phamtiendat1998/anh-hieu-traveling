@@ -1,6 +1,4 @@
 'use client'
-import { memo } from 'react';
-import type { FC } from 'react';
 import Image from 'next/image'
 import resets from '../_resets.module.css';
 import classes from './Card.module.css';

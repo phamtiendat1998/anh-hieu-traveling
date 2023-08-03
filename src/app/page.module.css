@@ -5,7 +5,7 @@
 }
 
 .banner {
-    height: 75vh;
+    min-height: 75vh;
     margin-bottom: 15vh;
 }
 
