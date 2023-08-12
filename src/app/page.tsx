@@ -7,6 +7,7 @@ import { Card } from '@/components/location/Card/Card';
 import { WhySection } from '@/components/whySection/WhySection';
 import { GallerySection } from '@/components/gallerySection/_gallerySection';
 import { locationsConst } from '@/data/location';
+import { ServiceCard } from '@/components/serviceCard/_serviceCard';
 
 export default function Home() {
   return (
@@ -23,6 +24,17 @@ export default function Home() {
         </div>
         <div className={`${styles.right} flex-1 flex justify-center xl:justify-end xl:items-center`} >
           <Image src='/assets/illus.png' width={648} height={594} alt='Hãy chọn chúng tôi'></Image>
+        </div>
+      </div>
+
+      {/* Service */}
+      <div className={`${styles.service}`}>
+        <p className='mb-4'>Dịch vụ</p>
+        <span className='mb-8'>Các dịch vụ và sự uy tín mà chúng tôi mang lại.</span>
+        <div className={`${styles.serviceList} mt-10 grid lg:grid-cols-1 xl:grid-cols-3 gap-10`}>
+          <div className={`place-self-center`}><ServiceCard src='/assets/icon-1.png' alt='10 năm king nghiệm' title='Hơn 10 năm king nghiệm' text='Hơn 10 năm kinh nghiệm lái xe, chúng tôi tự hào cung cấp dịch vụ chuyên nghiệp, an toàn và đáng tin cậy để đồng hành cùng bạn.' ></ServiceCard></div>
+          <div className={`place-self-center`}><ServiceCard src='/assets/icon-2.png' alt='Dịch vụ thuê xe' title='Dịch vụ thuê và cho thuê' text='Dịch vụ cho thuê xe và tự lái linh hoạt, đa dạng về loại xe, đáp ứng mọi nhu cầu di chuyển của bạn trên mọi cung đường đất nước.'></ServiceCard></div>
+          <div className={`place-self-center`}><ServiceCard src='/assets/icon-3.png' alt='Xe đời mới' title='Mẫu mã xe đời mới' text='Với những dòng xe mới với thiết kế tinh tế và công nghệ tiên tiến, mang đến trải nghiệm lái đỉnh cao và phong cách độc đáo.'></ServiceCard></div>
         </div>
       </div>
 
@@ -56,7 +68,7 @@ export default function Home() {
       {/* Images */}
       <div className={`${styles.images}`}>
         <p className='mb-4'>Hình ảnh trải nghiệm thực tế</p>
-        <span className='mb-8'>Những hình ảnh nơi mà chúng tôi đã trải nghiệm</span>
+        <span className='mb-  8'>Những hình ảnh nơi mà chúng tôi đã trải nghiệm</span>
         <div className={`${styles.gallery}`}>
           <GallerySection />
         </div>

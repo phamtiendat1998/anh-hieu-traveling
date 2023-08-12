@@ -26,6 +26,25 @@
     width: 70%;
 }
 
+.service {
+    padding-bottom: 280px;
+}
+
+.service>p,
+.service>span {
+    font-family: 'Lato';
+    line-height: 140%;
+}
+
+.service>p {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.service>span {
+    font-size: 1.5rem;
+}
+
 .popular {
     padding-bottom: 88px;
 }

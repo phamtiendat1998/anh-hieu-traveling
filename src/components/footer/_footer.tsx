@@ -19,30 +19,30 @@ const Footer = () => {
                 <div className='flex flex-col items-start justify-center'>
                     <p className={`${styles.company} mb-4`}>Công ty TNHH MTV Du lịch Anh Hiếu</p>
                     <p className={`${styles.sub}  mb-2`}><strong>Địa chỉ:</strong> 32A, Lý Tự Trọng, thànhh phố Pleiku, tỉnh Gia Lai</p>
-                    <p className={`${styles.sub}  mb-2`}><strong>Liên hệ:</strong> 0981 530 009</p>
+                    <p className={`${styles.sub}  mb-2`}><strong>Liên hệ:</strong> 0981 530 009 - 0985 035 897</p>
                 </div>
                 <div className='flex flex-row items-center justify-center'>
                     <div className='m-2'>
                         <FacebookShareButton
-                            url={'https://github.com/next-share'}
-                            quote={'next-share is a social share buttons for your next React apps.'}
-                            hashtag={'#nextshare'}
+                            url={'https://www.facebook.com/profile.php?id=100006188537389'}
+                            quote={'Facebook'}
+                            hashtag={'#facebook'}
                         >
                             <FacebookIcon size={50} round />
                         </FacebookShareButton>
                     </div>
                     <div className='m-2'>
                         <FacebookMessengerShareButton
-                            url={'https://github.com/next-share'}
-                            appId={''}
+                            url={'https://www.facebook.com'}
+                            appId={'100006188537389'}
                         >
                             <FacebookMessengerIcon size={50} round />
                         </FacebookMessengerShareButton>
                     </div>
                     <div className='m-2'>
                         <EmailShareButton
-                            url={'https://github.com/next-share'}
-                            subject={'Next Share'}
+                            url={'thisisdat1998@gmail.com'}
+                            subject={'Du Lịch Tây Nguyên'}
                             body="body"
                         >
                             <EmailIcon size={50} round />

@@ -20,7 +20,8 @@ export const Card = (props: Props) => {
   const router = useRouter();
 
   return (
-    <div className={`${resets.clapyResets} ${classes.root}`} onClick={() => router.push('/location/' + props.id)}>
+    // <div className={`${resets.clapyResets} ${classes.root}`} onClick={() => router.push('/location/' + props.id)}>
+    <div className={`${resets.clapyResets} ${classes.root}`} onClick={() => window.open('tel:0981530009')}>
       <div className={classes.boder}></div>
       <div className={classes.image}>
         <Image
@@ -52,6 +53,6 @@ export const Card = (props: Props) => {
         </div>
         <div className={classes.AtXe}>Đặt xe</div>
       </div>
-    </div>
+    </div >
   );
 };

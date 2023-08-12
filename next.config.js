@@ -8,6 +8,12 @@ const nextConfig = {
                 port: '',
                 pathname: '/**',
             },
+            {
+                protocol: 'https',
+                hostname: 'c1.staticflickr.com',
+                port: '',
+                pathname: '/**',
+            },
         ],
     },
 }
