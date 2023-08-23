@@ -1224,7 +1224,7 @@ _export(exports, {
 });
 const _interop_require_wildcard = __webpack_require__(1113);
 const _react = /*#__PURE__*/ _interop_require_wildcard._(__webpack_require__(8038));
-const _approutercontext = __webpack_require__(7085);
+const _approutercontext = __webpack_require__(5810);
 const _routerreducer = __webpack_require__(6421);
 const _routerreducertypes = __webpack_require__(1835);
 const _createhreffromurl = __webpack_require__(8970);
@@ -1869,7 +1869,7 @@ const _interop_require_default = __webpack_require__(5967);
 const _interop_require_wildcard = __webpack_require__(1113);
 const _react = /*#__PURE__*/ _interop_require_wildcard._(__webpack_require__(8038));
 const _reactdom = /*#__PURE__*/ _interop_require_default._(__webpack_require__(8704));
-const _approutercontext = __webpack_require__(7085);
+const _approutercontext = __webpack_require__(5810);
 const _fetchserverresponse = __webpack_require__(4025);
 const _infinitepromise = __webpack_require__(6499);
 const _errorboundary = __webpack_require__(7734);
@@ -2354,7 +2354,7 @@ _export(exports, {
     }
 });
 const _react = __webpack_require__(8038);
-const _approutercontext = __webpack_require__(7085);
+const _approutercontext = __webpack_require__(5810);
 const _hooksclientcontext = __webpack_require__(9569);
 const _clienthookinservercomponenterror = __webpack_require__(6064);
 const _getsegmentvalue = __webpack_require__(1184);
@@ -2833,7 +2833,7 @@ Object.defineProperty(exports, "default", ({
 }));
 const _interop_require_wildcard = __webpack_require__(1113);
 const _react = /*#__PURE__*/ _interop_require_wildcard._(__webpack_require__(8038));
-const _approutercontext = __webpack_require__(7085);
+const _approutercontext = __webpack_require__(5810);
 function RenderFromTemplateContext() {
     const children = (0, _react.useContext)(_approutercontext.TemplateContext);
     return /*#__PURE__*/ _react.default.createElement(_react.default.Fragment, null, children);
@@ -2863,7 +2863,7 @@ Object.defineProperty(exports, "applyFlightData", ({
         return applyFlightData;
     }
 }));
-const _approutercontext = __webpack_require__(7085);
+const _approutercontext = __webpack_require__(5810);
 const _filllazyitemstillleafwithhead = __webpack_require__(2303);
 const _fillcachewithnewsubtreedata = __webpack_require__(1806);
 function applyFlightData(existingCache, cache, flightDataPath, wasPrefetched) {
@@ -3151,7 +3151,7 @@ Object.defineProperty(exports, "createInitialRouterState", ({
         return createInitialRouterState;
     }
 }));
-const _approutercontext = __webpack_require__(7085);
+const _approutercontext = __webpack_require__(5810);
 const _createhreffromurl = __webpack_require__(8970);
 const _filllazyitemstillleafwithhead = __webpack_require__(2303);
 const _computechangedpath = __webpack_require__(575);
@@ -3463,7 +3463,7 @@ Object.defineProperty(exports, "fillCacheWithDataProperty", ({
         return fillCacheWithDataProperty;
     }
 }));
-const _approutercontext = __webpack_require__(7085);
+const _approutercontext = __webpack_require__(5810);
 const _createroutercachekey = __webpack_require__(5719);
 function fillCacheWithDataProperty(newCache, existingCache, flightSegmentPath, fetchResponse, bailOnParallelRoutes) {
     if (bailOnParallelRoutes === void 0) bailOnParallelRoutes = false;
@@ -3546,7 +3546,7 @@ Object.defineProperty(exports, "fillCacheWithNewSubTreeData", ({
         return fillCacheWithNewSubTreeData;
     }
 }));
-const _approutercontext = __webpack_require__(7085);
+const _approutercontext = __webpack_require__(5810);
 const _invalidatecachebyrouterstate = __webpack_require__(7508);
 const _filllazyitemstillleafwithhead = __webpack_require__(2303);
 const _createroutercachekey = __webpack_require__(5719);
@@ -3625,7 +3625,7 @@ Object.defineProperty(exports, "fillLazyItemsTillLeafWithHead", ({
         return fillLazyItemsTillLeafWithHead;
     }
 }));
-const _approutercontext = __webpack_require__(7085);
+const _approutercontext = __webpack_require__(5810);
 const _createroutercachekey = __webpack_require__(5719);
 function fillLazyItemsTillLeafWithHead(newCache, existingCache, routerState, head, wasPrefetched) {
     const isLastSegment = Object.keys(routerState[1]).length === 0;
@@ -4205,7 +4205,7 @@ _export(exports, {
         return navigateReducer;
     }
 });
-const _approutercontext = __webpack_require__(7085);
+const _approutercontext = __webpack_require__(5810);
 const _fetchserverresponse = __webpack_require__(4025);
 const _createrecordfromthenable = __webpack_require__(1685);
 const _readrecordvalue = __webpack_require__(9527);
@@ -4564,7 +4564,7 @@ const _applyrouterstatepatchtotree = __webpack_require__(2105);
 const _isnavigatingtonewrootlayout = __webpack_require__(4238);
 const _navigatereducer = __webpack_require__(5567);
 const _handlemutable = __webpack_require__(8414);
-const _approutercontext = __webpack_require__(7085);
+const _approutercontext = __webpack_require__(5810);
 const _filllazyitemstillleafwithhead = __webpack_require__(2303);
 function refreshReducer(state, action) {
     const { cache, mutable, origin } = action;

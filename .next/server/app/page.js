@@ -52,7 +52,7 @@ module.exports = require("next/dist/server/future/helpers/interception-routes");
 
 /***/ }),
 
-/***/ 7085:
+/***/ 5810:
 /***/ ((module) => {
 
 "use strict";
@@ -273,7 +273,7 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ 7939:
+/***/ 4831:
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
 Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 9556, 23));
@@ -1515,73 +1515,73 @@ const locationsConst = [
         id: "mang-den",
         name: "Măng Đen",
         location: "TP KonTum",
-        thumnail: "https://lh3.googleusercontent.com/drive-viewer/AITFw-w7MjmDKb63nwj4IrLmHuwYmnoxqoG6UOXfkYlkyWDNKju29sKJx_wfSn8T4VLITT-QaNl8aePTrHeZBm9TvSdd4Cj3vQ=s2560"
+        thumnail: "https://lh3.googleusercontent.com/drive-viewer/AITFw-xNzgPRbBvCNy7laNsM-NE92PnSlC9v3Nm128iIs2TXVwtDROgYzUWqH-jnUNXOZrSOdAnXYh8nfFRcyhcFSB_2iz4waA=s2560"
     },
     {
         id: "bao-tang-cafe-bmt",
         name: "Bảo t\xe0ng Cafe Bu\xf4n Ma Thuột",
         location: "TP Bu\xf4n Ma Thuột",
-        thumnail: "https://lh3.googleusercontent.com/drive-viewer/AITFw-w3AZmihdHz5-_ic31qjLEzMBFHnKVM47GWmoLPCO52MimpUSxFgPTyL_sgfjtN1o3FneQYrLwb0Dw8mztFS6GfLleURA=s2560"
+        thumnail: "https://lh3.googleusercontent.com/drive-viewer/AITFw-zm3MX8jrmmfekFQD48B_2nDLq0rwKUlTP9JJUhtu4RCVCudIhmlaCPYwYAZQbXAStSzzqJnUKywy3zcuItZ3z2na28kg=s2560"
     },
     {
         id: "ho-dak",
         name: "Hồ Lắk",
         location: "Đắk Lắk",
-        thumnail: "https://lh3.googleusercontent.com/drive-viewer/AITFw-yUgV4PWuZYxB3aB5f0KqBnECXyGHGgO_JtSC1vJcnOK7XfyGi98JWBZUkyBIBHRXgeVjV8-AQDhg28a_g_lcEUKSpCXA=s2560"
+        thumnail: "https://lh3.googleusercontent.com/drive-viewer/AITFw-zn8vCDfONmdjWT1ivYgMOpTB8E-a7oGzHIcrYuGLODPEn72rwGdt4l8tkfmtITt4xrdNVQO4v4U7F_QXEwX_elnA9B-A=s2560"
     },
     {
         id: "ho-ta-tung",
         name: "Hồ T\xe0 T\xf9ng",
         location: "Đắk N\xf4ng",
-        thumnail: "https://lh3.googleusercontent.com/drive-viewer/AITFw-xPxCr6mQWqlOjBtYTKWdt-fysegtzz6hf9wkPMJZVbuJ6rEFF1Pavt_khYNC0Vz0Mkm9TcF9a0HyQitJ-hEVUzfjVDzw=s2560"
+        thumnail: "https://lh3.googleusercontent.com/drive-viewer/AITFw-xYN5miPmdSDlGaUji5SQq-io8vf4hR_EUN1yMM0_AW4eku5yimKZeg2rSXgIjXS6oyvBfwPDYKHsC6aJp_Qypjr3zeew=s2560"
     },
     {
         id: "tp-da-lat",
         name: "Th\xe0nh phố Đ\xe0 Lạt",
         location: "L\xe2m Đồng",
-        thumnail: "https://lh3.googleusercontent.com/drive-viewer/AITFw-yhwFpHYchzu9PWxbC9m35k2F9is1nv6RUp4VU4x2vumAcbZPZwmHfzFh2fHuCE6jUP5MEAvxItq2zzbHgm8n8n1itbSA=s1600"
+        thumnail: "https://lh3.googleusercontent.com/drive-viewer/AITFw-x3meXaLfhh78sgvalHH_WLJKXwCeu8CTdZpOw3A1-9d3diXVbXwHVTS9jVwqcyuZMgEXREyg934f4cGA2XB0pvy11OdQ=s1600"
     },
     {
         id: "bai-bien-hon-kho",
         name: "B\xe3i biển H\xf2n Kh\xf4",
         location: "Quy Nhơn",
-        thumnail: "https://lh3.googleusercontent.com/drive-viewer/AITFw-yQrJb7UkSPvmIZp5rs0FAPAXsKFqLDaXcslG7BzfeGbA-30LGnZRrTefk74AgEQLANpTUTTR3Y-XnXHb-9Q-8UvwH4KA=s2560"
+        thumnail: "https://lh3.googleusercontent.com/drive-viewer/AITFw-zccTXjcyYxPqxonebQFtyK_WokyRYtD7Z1Zo2jYscmyEV0PC5tgitY9E59TYUIkkoZaSDbIUbSZ8y6_ZF1moPUX4UILg=s2560"
     },
     {
         id: "hoi-an",
         name: "Hội An",
         location: "Quảng Nam",
-        thumnail: "https://lh3.googleusercontent.com/drive-viewer/AITFw-zhwkpzl8npvg9SgffJq-QCIWsxpu_AwjFf3kAz_kKYIWsfo3prIgnhDTjTXScw8Pl0hVo2Op4yu1aZvzEje3gRKW85mQ=s2560"
+        thumnail: "https://lh3.googleusercontent.com/drive-viewer/AITFw-xmJ6VfNjP-PwSySg_Pu_VOrnCmVoM3XclYjSsHuKDXJdannyoKbmXywirNpqivkvHv8EtFoWwhP08WwVGB0ipH4XRyuA=s2560"
     },
     {
         id: "thac-k50",
         name: "Th\xe1c K50",
         location: "Gia Lai",
-        thumnail: "https://lh3.googleusercontent.com/drive-viewer/AITFw-y2FIfzAHlQpT4pKByLbZeBqMvm0Cutjh9E0f5dY9mJ8TJT-Wswrn7CeoGg0t9uMDt5xBDBdDDYViaWgW8KYa7cXccY7w=s2560"
+        thumnail: "https://lh3.googleusercontent.com/drive-viewer/AITFw-yuPbYAmAZkjB7MQPPi3w8fXnJYlPk7o8TW_kyzegEAmYmt0DrPxTp1Nt49bR9n6_vgMzSOvxHtc5OZBGw7cHMjazjqTA=s2560"
     },
     {
         id: "thac-day-nur",
         name: "Th\xe1c Dray Nur",
         location: "Đắk Lắk",
-        thumnail: "https://lh3.googleusercontent.com/drive-viewer/AITFw-y354Bimx2XhyTkJiXcKgTqZN9wyS7Up0vSP45goSha08K8DXEs6yaI5gSbSizyS26amoS5KKDfpL2XlbkkYS2lmf67ow=s2560"
+        thumnail: "https://lh3.googleusercontent.com/drive-viewer/AITFw-xEnjukKrFKHTFwScvtu4BD84CVaTa8dJndTdqggNCuKYHzcyeIkAMePBZYUqsTwvfKhRqRrlYCh_U2AmUrLd7NC-uZSg=s2560"
     },
     {
         id: "nui-lua-chu-bluk",
         name: "N\xfai lửa Chư Bl\xfak",
         location: "Đắk N\xf4ng",
-        thumnail: "https://lh3.googleusercontent.com/drive-viewer/AITFw-wJro7klhLIPPl2lJEqFt8FVc7osgHOQWr97YgnyRtsePoOfMAIjQaxoCo4IRoUDl5TrmLncGxxHNVb3j-ry7TBkJzFog=s2560"
+        thumnail: "https://lh3.googleusercontent.com/drive-viewer/AITFw-zvIwvlcijjYNZVoCKZsro-APvCorNo6r-Zc2vZIZJXRCbmO62b1yWr6wu-7iBXLGQ1AC9o3ew_8MG4dO_454UVC-S2Gw=s2560"
     },
     {
         id: "lang-voi",
         name: "L\xe0ng voi Nhơn H\xf2a",
         location: "Gia Lai",
-        thumnail: "https://lh3.googleusercontent.com/drive-viewer/AITFw-zJky3HHpPmTM4wrtVMbE48ineT74O5DwrunRFsHDXn724oJPK04023kQk-ip-Dt9QkGOQ-R03OL2OhN8kCDHIam1SPLg=s2560"
+        thumnail: "https://lh3.googleusercontent.com/drive-viewer/AITFw-yTiIBbXzgI4FLen-GfCYplj7Wc3agfsd1I1syZTQP7n6vNHz93MMKcZHIflOpUSPLeHRVAEur1gARVp4FvOhbfPHFYuQ=s2560"
     },
     {
         id: "nha-trang",
         name: "B\xe3i D\xe0i Nha Trang",
         location: "Nha Trang",
-        thumnail: "https://lh3.googleusercontent.com/drive-viewer/AITFw-wVy4atObBZfwFs12ix1AkTapE1Og2HyJiPbOOO2xsX6kYCMxqvEQtVcwpJa8fazn4jPL7pZ31anXzgbB6AFI6Nymudag=s2560"
+        thumnail: "https://lh3.googleusercontent.com/drive-viewer/AITFw-xQKrEKCzSZJH7EHJvncwhDZAAYWAqcQbyxYqD3CQsQHbKN0NYlL6C0_kjUS1FbVRub1C0TZZmX2ZjFcczZgo21Li6ugw=s2560"
     }
 ];
 
@@ -1807,7 +1807,7 @@ function Home() {
 var __webpack_require__ = require("../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [697,505,635,516], () => (__webpack_exec__(5339)));
+var __webpack_exports__ = __webpack_require__.X(0, [697,505,635,485], () => (__webpack_exec__(5339)));
 module.exports = __webpack_exports__;
 
 })();
