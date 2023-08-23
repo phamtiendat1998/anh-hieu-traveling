@@ -2,6 +2,7 @@
   "name": "anh-hieu-traveling",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://dulichanhhieu.vn",
   "scripts": {
     "dev": "node server.js",
     "build": "next build",
