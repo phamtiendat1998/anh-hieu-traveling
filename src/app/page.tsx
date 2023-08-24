@@ -41,7 +41,7 @@ export default function Home() {
       {/* Location List */}
       <div className={`${styles.popular}`}>
         <p className='mb-4'>Địa điểm phổ biến</p>
-        <span className='mb-8'>Trải nghiệm các địa điểm thú vị tại Việt Nam</span>
+        <span className='mb-8'>Trải nghiệm các địa điểm thú vị tại Việt Nam, đặc biệt là Tây Nguyên với vẻ đẹp hùng vĩ.</span>
         <div className={`${styles.popularList} mt-6 grid lg:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4 gap-4`}>
           {locationsConst.map(e => (
             <div key={e.id} className='place-self-center'>
@@ -68,7 +68,7 @@ export default function Home() {
       {/* Images */}
       <div className={`${styles.images}`}>
         <p className='mb-4'>Hình ảnh trải nghiệm thực tế</p>
-        <span className='mb-  8'>Những hình ảnh nơi mà chúng tôi đã trải nghiệm</span>
+        <span className='mb-  8'>Những hình ảnh nơi mà chúng tôi đã trải nghiệm cùng các đoàn khách ở khắp mọi nơi.</span>
         <div className={`${styles.gallery}`}>
           <GallerySection />
         </div>

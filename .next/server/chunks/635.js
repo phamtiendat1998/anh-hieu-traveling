@@ -8,7 +8,7 @@ exports.modules = {
 "use strict";
 /* __next_internal_client_entry_do_not_use__  cjs */ 
 const { createProxy } = __webpack_require__(1913);
-module.exports = createProxy("E:\\Job\\anh-hieu-traveling\\node_modules\\next\\dist\\client\\image-component.js");
+module.exports = createProxy("/Users/phamtiendat/Repository/anh-hieu-traveling/node_modules/next/dist/client/image-component.js");
  //# sourceMappingURL=image-component.js.map
 
 
@@ -2171,10 +2171,10 @@ function Carousel({ carousel: { finite, preload, padding, spacing } }) {
 }
 const CarouselModule = createModule(_types_js__WEBPACK_IMPORTED_MODULE_2__/* .MODULE_CAROUSEL */ .k0, Carousel);
 
-function NavigationButton({ label, icon, renderIcon, action, onClick, disabled }) {
-    return (react__WEBPACK_IMPORTED_MODULE_0__.createElement(IconButton, { label: label, icon: icon, renderIcon: renderIcon, className: cssClass(`navigation_${action}`), disabled: disabled, onClick: onClick, ...useLoseFocus(useController().focus, disabled) }));
+function NavigationButton({ label, icon, renderIcon, action, onClick, disabled, style }) {
+    return (react__WEBPACK_IMPORTED_MODULE_0__.createElement(IconButton, { label: label, icon: icon, renderIcon: renderIcon, className: cssClass(`navigation_${action}`), disabled: disabled, onClick: onClick, style: style, ...useLoseFocus(useController().focus, disabled) }));
 }
-function Navigation({ carousel: { finite }, animation, render: { buttonPrev, buttonNext, iconPrev, iconNext }, }) {
+function Navigation({ carousel: { finite }, animation, render: { buttonPrev, buttonNext, iconPrev, iconNext }, styles, }) {
     var _a;
     const { slides, currentIndex } = useLightboxState();
     const { prev, next, subscribeSensors } = useController();
@@ -2194,8 +2194,8 @@ function Navigation({ carousel: { finite }, animation, render: { buttonPrev, but
     });
     react__WEBPACK_IMPORTED_MODULE_0__.useEffect(() => subscribeSensors(_types_js__WEBPACK_IMPORTED_MODULE_2__/* .EVENT_ON_KEY_DOWN */ .ds, handleKeyDown), [subscribeSensors, handleKeyDown]);
     return (react__WEBPACK_IMPORTED_MODULE_0__.createElement(react__WEBPACK_IMPORTED_MODULE_0__.Fragment, null,
-        buttonPrev ? (buttonPrev()) : (react__WEBPACK_IMPORTED_MODULE_0__.createElement(NavigationButton, { label: "Previous", action: _types_js__WEBPACK_IMPORTED_MODULE_2__/* .ACTION_PREV */ .KN, icon: PreviousIcon, renderIcon: iconPrev, disabled: prevDisabled, onClick: prev })),
-        buttonNext ? (buttonNext()) : (react__WEBPACK_IMPORTED_MODULE_0__.createElement(NavigationButton, { label: "Next", action: _types_js__WEBPACK_IMPORTED_MODULE_2__/* .ACTION_NEXT */ .Eb, icon: NextIcon, renderIcon: iconNext, disabled: nextDisabled, onClick: next }))));
+        buttonPrev ? (buttonPrev()) : (react__WEBPACK_IMPORTED_MODULE_0__.createElement(NavigationButton, { label: "Previous", action: _types_js__WEBPACK_IMPORTED_MODULE_2__/* .ACTION_PREV */ .KN, icon: PreviousIcon, renderIcon: iconPrev, style: styles.navigationPrev, disabled: prevDisabled, onClick: prev })),
+        buttonNext ? (buttonNext()) : (react__WEBPACK_IMPORTED_MODULE_0__.createElement(NavigationButton, { label: "Next", action: _types_js__WEBPACK_IMPORTED_MODULE_2__/* .ACTION_NEXT */ .Eb, icon: NextIcon, renderIcon: iconNext, style: styles.navigationNext, disabled: nextDisabled, onClick: next }))));
 }
 const NavigationModule = createModule(_types_js__WEBPACK_IMPORTED_MODULE_2__/* .MODULE_NAVIGATION */ .Op, Navigation);
 
@@ -2340,7 +2340,7 @@ const RootModule = createModule(_types_js__WEBPACK_IMPORTED_MODULE_2__/* .MODULE
 function cssPrefix(value) {
     return composePrefix(_types_js__WEBPACK_IMPORTED_MODULE_2__/* .MODULE_TOOLBAR */ .hb, value);
 }
-function Toolbar({ toolbar: { buttons }, render: { buttonClose, iconClose } }) {
+function Toolbar({ toolbar: { buttons }, render: { buttonClose, iconClose }, styles }) {
     const { close, setToolbarWidth } = useController();
     const { setContainerRef, containerRect } = useContainerRect();
     useLayoutEffect(() => {
@@ -2351,7 +2351,7 @@ function Toolbar({ toolbar: { buttons }, render: { buttonClose, iconClose } }) {
             return buttonClose();
         return react__WEBPACK_IMPORTED_MODULE_0__.createElement(IconButton, { key: _types_js__WEBPACK_IMPORTED_MODULE_2__/* .ACTION_CLOSE */ .t9, label: "Close", icon: CloseIcon, renderIcon: iconClose, onClick: close });
     };
-    return (react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", { ref: setContainerRef, className: cssClass(cssPrefix()), ...stopNavigationEventsPropagation() }, buttons === null || buttons === void 0 ? void 0 : buttons.map((button) => (button === _types_js__WEBPACK_IMPORTED_MODULE_2__/* .ACTION_CLOSE */ .t9 ? renderCloseButton() : button))));
+    return (react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", { ref: setContainerRef, style: styles.toolbar, className: cssClass(cssPrefix()), ...stopNavigationEventsPropagation() }, buttons === null || buttons === void 0 ? void 0 : buttons.map((button) => (button === _types_js__WEBPACK_IMPORTED_MODULE_2__/* .ACTION_CLOSE */ .t9 ? renderCloseButton() : button))));
 }
 const ToolbarModule = createModule(_types_js__WEBPACK_IMPORTED_MODULE_2__/* .MODULE_TOOLBAR */ .hb, Toolbar);
 

@@ -18,7 +18,7 @@ const Footer = () => {
             <div className={`${styles.info} ring-offset-2 ring-2 grid lg:grid-cols-1 xl:grid-cols-2 xl:divide-x`}>
                 <div className='flex flex-col items-start justify-center'>
                     <p className={`${styles.company} mb-4`}>Công ty TNHH MTV Du lịch Anh Hiếu</p>
-                    <p className={`${styles.sub}  mb-2`}><strong>Địa chỉ:</strong> 32A, Lý Tự Trọng, thànhh phố Pleiku, tỉnh Gia Lai</p>
+                    <p className={`${styles.sub}  mb-2`}><strong>Địa chỉ:</strong> 32A, Lý Tự Trọng, thành phố Pleiku, tỉnh Gia Lai</p>
                     <p className={`${styles.sub}  mb-2`}><strong>Liên hệ:</strong> 0981 530 009 - 0985 035 897</p>
                 </div>
                 <div className='flex flex-row items-center justify-center'>

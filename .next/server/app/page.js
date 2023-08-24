@@ -52,7 +52,7 @@ module.exports = require("next/dist/server/future/helpers/interception-routes");
 
 /***/ }),
 
-/***/ 5810:
+/***/ 7085:
 /***/ ((module) => {
 
 "use strict";
@@ -81,6 +81,14 @@ module.exports = require("next/dist/shared/lib/hash");
 
 "use strict";
 module.exports = require("next/dist/shared/lib/head");
+
+/***/ }),
+
+/***/ 6819:
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("next/dist/shared/lib/head-manager-context");
 
 /***/ }),
 
@@ -212,7 +220,7 @@ module.exports = require("util");
 
 /***/ }),
 
-/***/ 5339:
+/***/ 1940:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -237,7 +245,7 @@ __webpack_require__.r(__webpack_exports__);
         '',
         {
         children: ['__PAGE__', {}, {
-          page: [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 8379)), "E:\\Job\\anh-hieu-traveling\\src\\app\\page.tsx"],
+          page: [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 8379)), "/Users/phamtiendat/Repository/anh-hieu-traveling/src/app/page.tsx"],
           metadata: {
     icon: [(async (props) => (await Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 2819))).default(props))],
     apple: [],
@@ -248,7 +256,7 @@ __webpack_require__.r(__webpack_exports__);
         }]
       },
         {
-          'layout': [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 6369)), "E:\\Job\\anh-hieu-traveling\\src\\app\\layout.tsx"],
+          'layout': [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 6369)), "/Users/phamtiendat/Repository/anh-hieu-traveling/src/app/layout.tsx"],
           metadata: {
     icon: [(async (props) => (await Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 2819))).default(props))],
     apple: [],
@@ -259,7 +267,7 @@ __webpack_require__.r(__webpack_exports__);
         }
       ]
       }.children;
-    const pages = ["E:\\Job\\anh-hieu-traveling\\src\\app\\page.tsx"];
+    const pages = ["/Users/phamtiendat/Repository/anh-hieu-traveling/src/app/page.tsx"];
     
     const originalPathname = "/page"
     const __next_app__ = {
@@ -273,7 +281,18 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ 4831:
+/***/ 5727:
+/***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
+
+Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 8709, 23));
+Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 2698, 23));
+Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 7833, 23));
+Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 9150, 23));
+Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 7734, 23))
+
+/***/ }),
+
+/***/ 7622:
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
 Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 9556, 23));
@@ -581,20 +600,7 @@ const images_images = [
         height: 320,
         caption: "Ảnh 23"
     },
-    {
-        src: "https://lh3.googleusercontent.com/drive-viewer/AITFw-zM6orIhA_MCXuPjjOy_de2QkeHD0I2q_KHvoFktPhyAUBzuNeqIOjHvJLXgQDI7BfpPDsodeTBvkBzUdEI9UMKruASIg=s1600",
-        original: "https://lh3.googleusercontent.com/drive-viewer/AITFw-zM6orIhA_MCXuPjjOy_de2QkeHD0I2q_KHvoFktPhyAUBzuNeqIOjHvJLXgQDI7BfpPDsodeTBvkBzUdEI9UMKruASIg=s1600",
-        width: 427,
-        height: 320,
-        caption: "Ảnh 24"
-    },
-    {
-        src: "https://lh3.googleusercontent.com/drive-viewer/AITFw-x0Hw7kHERRjUW5HiuAjfiS9BevsdmShSlyr9zhBgJn0g8alPyiYx_vRVFfLE4f9oUXwfzbMWjcIFIC2IBIKr4jVhot=s1600",
-        original: "https://lh3.googleusercontent.com/drive-viewer/AITFw-x0Hw7kHERRjUW5HiuAjfiS9BevsdmShSlyr9zhBgJn0g8alPyiYx_vRVFfLE4f9oUXwfzbMWjcIFIC2IBIKr4jVhot=s1600",
-        width: 427,
-        height: 320,
-        caption: "Ảnh 25"
-    },
+    // TODO
     {
         src: "https://lh3.googleusercontent.com/drive-viewer/AITFw-zGpquQ4HmDKlqjoLwkKCObjOfnMdz3dVzFMjJbtFI2EVv2jZ9IZXU9hDTa-oaPCSArxQTzJaoAQM6xgAniXgT6b7vY=s1600",
         original: "https://lh3.googleusercontent.com/drive-viewer/AITFw-zGpquQ4HmDKlqjoLwkKCObjOfnMdz3dVzFMjJbtFI2EVv2jZ9IZXU9hDTa-oaPCSArxQTzJaoAQM6xgAniXgT6b7vY=s1600",
@@ -637,19 +643,90 @@ const images_images = [
         height: 320,
         caption: "Ảnh 31"
     },
-    {
-        src: "https://lh3.googleusercontent.com/drive-viewer/AITFw-wjR8nvNfM8kGnC0WsUqkoRQLZn4P5rjEoMmVLb05pRALCvFZwgMuaciCqcRfn6Z0yMaJbvOZ2FO33ZPnpZVD7tPyx0gQ=s1600",
-        original: "https://lh3.googleusercontent.com/drive-viewer/AITFw-wjR8nvNfM8kGnC0WsUqkoRQLZn4P5rjEoMmVLb05pRALCvFZwgMuaciCqcRfn6Z0yMaJbvOZ2FO33ZPnpZVD7tPyx0gQ=s1600",
-        width: 320,
-        height: 240,
-        caption: "Ảnh 32"
-    },
+    // TODO
     {
         src: "https://lh3.googleusercontent.com/drive-viewer/AITFw-w15NVqo9Z_suf92Y80lUIT4gY_firNPi4SIQ-NjAMD9PVOiqVC1SqpH-V-YPNGgqP6Q8CGJtzbHMN4Hli7GGD-3UBq=s1600",
         original: "https://lh3.googleusercontent.com/drive-viewer/AITFw-w15NVqo9Z_suf92Y80lUIT4gY_firNPi4SIQ-NjAMD9PVOiqVC1SqpH-V-YPNGgqP6Q8CGJtzbHMN4Hli7GGD-3UBq=s1600",
         width: 144,
         height: 320,
         caption: "Ảnh 33"
+    },
+    {
+        src: "https://lh3.googleusercontent.com/drive-viewer/AITFw-y7e2Rwhkvp5CXVWd5hL3AIkxeeW2F4yalJU87_mAKVf1ZnJRnAaqqmwL9RHEobgpMEu1Z1JUrwN4ASOedY0LCKgalanQ=s1600",
+        original: "https://lh3.googleusercontent.com/drive-viewer/AITFw-y7e2Rwhkvp5CXVWd5hL3AIkxeeW2F4yalJU87_mAKVf1ZnJRnAaqqmwL9RHEobgpMEu1Z1JUrwN4ASOedY0LCKgalanQ=s1600",
+        width: 148,
+        height: 320,
+        caption: "Ảnh 2-1"
+    },
+    {
+        src: "https://lh3.googleusercontent.com/drive-viewer/AITFw-zHzBeCkgbcU6BIHjh3Q-Yxzim_dP4Se4-mJ5ENCWCJ4BiaqYMs5Zez2eT2BuHu7jLnyPTJ9xrvmEXp5ST833yTZZEcDw=s1600",
+        original: "https://lh3.googleusercontent.com/drive-viewer/AITFw-zHzBeCkgbcU6BIHjh3Q-Yxzim_dP4Se4-mJ5ENCWCJ4BiaqYMs5Zez2eT2BuHu7jLnyPTJ9xrvmEXp5ST833yTZZEcDw=s1600",
+        width: 148,
+        height: 320,
+        caption: "Ảnh 2-2"
+    },
+    {
+        src: "https://lh3.googleusercontent.com/drive-viewer/AITFw-w00WZnMmQIGMMwKUbABI1RcjDDtf3bWo7xcVWy_RRYk9I6AYveKT6Jw1yvdW8cR8dmV4g8seyLqYy230XaIVJbJxCy5A=s1600",
+        original: "https://lh3.googleusercontent.com/drive-viewer/AITFw-w00WZnMmQIGMMwKUbABI1RcjDDtf3bWo7xcVWy_RRYk9I6AYveKT6Jw1yvdW8cR8dmV4g8seyLqYy230XaIVJbJxCy5A=s1600",
+        width: 711,
+        height: 320,
+        caption: "Ảnh 2-3"
+    },
+    {
+        src: "https://lh3.googleusercontent.com/drive-viewer/AITFw-zqEHVScIUog_nTQNVurLA-63PKQOT8WOhAHp30BXjkwWFpDx72JVeWTxgVI5mTaAX2D8SAeiki890Fi3OeXTQdBRBN=s1600",
+        original: "https://lh3.googleusercontent.com/drive-viewer/AITFw-zqEHVScIUog_nTQNVurLA-63PKQOT8WOhAHp30BXjkwWFpDx72JVeWTxgVI5mTaAX2D8SAeiki890Fi3OeXTQdBRBN=s1600",
+        width: 427,
+        height: 320,
+        caption: "Ảnh 2-4"
+    },
+    {
+        src: "https://lh3.googleusercontent.com/drive-viewer/AITFw-xugCUJ1-FGK8ca67726lauUzVvoL1OZwtx4ESgJaKV8KPp-JKFO0ssB6fceWuK8DleVp5J6_xqU5uldVK2_PTHBfc7=s1600",
+        original: "https://lh3.googleusercontent.com/drive-viewer/AITFw-xugCUJ1-FGK8ca67726lauUzVvoL1OZwtx4ESgJaKV8KPp-JKFO0ssB6fceWuK8DleVp5J6_xqU5uldVK2_PTHBfc7=s1600",
+        width: 144,
+        height: 320,
+        caption: "Ảnh 2-5"
+    },
+    {
+        src: "https://lh3.googleusercontent.com/drive-viewer/AITFw-xh2WOGZB5iwku0LB0ipdyOoIwjAFwiSxA2MlfcoYWnmb1D0_d2R9ojBjW_OBUM9v4LEdNVJQ8vc6IASwhm5BUvGvM5Tw=s1600",
+        original: "https://lh3.googleusercontent.com/drive-viewer/AITFw-xh2WOGZB5iwku0LB0ipdyOoIwjAFwiSxA2MlfcoYWnmb1D0_d2R9ojBjW_OBUM9v4LEdNVJQ8vc6IASwhm5BUvGvM5Tw=s1600",
+        width: 427,
+        height: 320,
+        caption: "Ảnh 2-6"
+    },
+    {
+        src: "https://lh3.googleusercontent.com/drive-viewer/AITFw-xuczKsCavg2lmRVkyVjEXkF7COgQ6XbhGdH0Obu555FUVvTx2j_HNEJycJcslsKWZONVg7mN_0ANTQ_ugGmWvq1BmDtQ=s1600",
+        original: "https://lh3.googleusercontent.com/drive-viewer/AITFw-xuczKsCavg2lmRVkyVjEXkF7COgQ6XbhGdH0Obu555FUVvTx2j_HNEJycJcslsKWZONVg7mN_0ANTQ_ugGmWvq1BmDtQ=s1600",
+        width: 427,
+        height: 320,
+        caption: "Ảnh 2-7"
+    },
+    {
+        src: "https://lh3.googleusercontent.com/drive-viewer/AITFw-zcahN-HsGAldulqCBdA3w7TAVjimruEqRNSYpIrRNsrh36HoIj7zDM5rTTFYFmMsNdpkCdDT6uqNFFss2LbN9S7058vQ=s1600",
+        original: "https://lh3.googleusercontent.com/drive-viewer/AITFw-zcahN-HsGAldulqCBdA3w7TAVjimruEqRNSYpIrRNsrh36HoIj7zDM5rTTFYFmMsNdpkCdDT6uqNFFss2LbN9S7058vQ=s1600",
+        width: 427,
+        height: 320,
+        caption: "Ảnh 2-8"
+    },
+    {
+        src: "https://lh3.googleusercontent.com/drive-viewer/AITFw-zDGCB5p7ZHKAPJoX9Vv125hZw9Telup7Ku3r4ebijmXiy1tGrdUip1NKPX9JwXAtRTvTsL7we3_EV2RLX_bmFLJvLiBw=s1600",
+        original: "https://lh3.googleusercontent.com/drive-viewer/AITFw-zDGCB5p7ZHKAPJoX9Vv125hZw9Telup7Ku3r4ebijmXiy1tGrdUip1NKPX9JwXAtRTvTsL7we3_EV2RLX_bmFLJvLiBw=s1600",
+        width: 711,
+        height: 320,
+        caption: "Ảnh 2-9"
+    },
+    {
+        src: "https://lh3.googleusercontent.com/drive-viewer/AITFw-x7CtZeEHuclQEHuq-xDB2eMDJziwOrArmBycVGgUQqGQttPlbAyKnstoELdIjt6E5CdMOcMzKGP7v8mk2p4aufxJ3dfQ=s1600",
+        original: "https://lh3.googleusercontent.com/drive-viewer/AITFw-x7CtZeEHuclQEHuq-xDB2eMDJziwOrArmBycVGgUQqGQttPlbAyKnstoELdIjt6E5CdMOcMzKGP7v8mk2p4aufxJ3dfQ=s1600",
+        width: 427,
+        height: 320,
+        caption: "Ảnh 2-10"
+    },
+    {
+        src: "https://lh3.googleusercontent.com/drive-viewer/AITFw-yV5wR0p-PeoflK_TUCTvEkm4nq8vMYUe3IYf9HFhr1J9mo2Fe7kIqVlgmRZmQHmCwc0LGeYifDabsxgh5id_o5KXn3DQ=s1600",
+        original: "https://lh3.googleusercontent.com/drive-viewer/AITFw-yV5wR0p-PeoflK_TUCTvEkm4nq8vMYUe3IYf9HFhr1J9mo2Fe7kIqVlgmRZmQHmCwc0LGeYifDabsxgh5id_o5KXn3DQ=s1600",
+        width: 693,
+        height: 320,
+        caption: "Ảnh 2-11"
     }
 ];
 
@@ -1097,7 +1174,7 @@ var page_module_default = /*#__PURE__*/__webpack_require__.n(page_module);
 var module_proxy = __webpack_require__(1913);
 ;// CONCATENATED MODULE: ./src/components/button/phone/_phoneButton.tsx
 
-const proxy = (0,module_proxy.createProxy)(String.raw`E:\Job\anh-hieu-traveling\src\components\button\phone\_phoneButton.tsx`)
+const proxy = (0,module_proxy.createProxy)(String.raw`/Users/phamtiendat/Repository/anh-hieu-traveling/src/components/button/phone/_phoneButton.tsx`)
 
 // Accessing the __esModule property and exporting $$typeof are required here.
 // The __esModule getter forces the proxy target to create the default export
@@ -1179,7 +1256,7 @@ const Memo = /*#__PURE__*/ (0,react_shared_subset.memo)(Vector99Icon);
 
 ;// CONCATENATED MODULE: ./src/components/location/Card/Card.tsx
 
-const Card_proxy = (0,module_proxy.createProxy)(String.raw`E:\Job\anh-hieu-traveling\src\components\location\Card\Card.tsx`)
+const Card_proxy = (0,module_proxy.createProxy)(String.raw`/Users/phamtiendat/Repository/anh-hieu-traveling/src/components/location/Card/Card.tsx`)
 
 // Accessing the __esModule property and exporting $$typeof are required here.
 // The __esModule getter forces the proxy target to create the default export
@@ -1498,7 +1575,7 @@ const PackageIcon_Memo = /*#__PURE__*/ (0,react_shared_subset.memo)(PackageIcon)
 
 ;// CONCATENATED MODULE: ./src/components/gallerySection/_gallerySection.tsx
 
-const _gallerySection_proxy = (0,module_proxy.createProxy)(String.raw`E:\Job\anh-hieu-traveling\src\components\gallerySection\_gallerySection.tsx`)
+const _gallerySection_proxy = (0,module_proxy.createProxy)(String.raw`/Users/phamtiendat/Repository/anh-hieu-traveling/src/components/gallerySection/_gallerySection.tsx`)
 
 // Accessing the __esModule property and exporting $$typeof are required here.
 // The __esModule getter forces the proxy target to create the default export
@@ -1714,7 +1791,7 @@ function Home() {
                     }),
                     /*#__PURE__*/ jsx_runtime_.jsx("span", {
                         className: "mb-8",
-                        children: "Trải nghiệm c\xe1c địa điểm th\xfa vị tại Việt Nam"
+                        children: "Trải nghiệm c\xe1c địa điểm th\xfa vị tại Việt Nam, đặc biệt l\xe0 T\xe2y Nguy\xean với vẻ đẹp h\xf9ng vĩ."
                     }),
                     /*#__PURE__*/ jsx_runtime_.jsx("div", {
                         className: `${(page_module_default()).popularList} mt-6 grid lg:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4 gap-4`,
@@ -1785,7 +1862,7 @@ function Home() {
                     }),
                     /*#__PURE__*/ jsx_runtime_.jsx("span", {
                         className: "mb-  8",
-                        children: "Những h\xecnh ảnh nơi m\xe0 ch\xfang t\xf4i đ\xe3 trải nghiệm"
+                        children: "Những h\xecnh ảnh nơi m\xe0 ch\xfang t\xf4i đ\xe3 trải nghiệm c\xf9ng c\xe1c đo\xe0n kh\xe1ch ở khắp mọi nơi."
                     }),
                     /*#__PURE__*/ jsx_runtime_.jsx("div", {
                         className: `${(page_module_default()).gallery}`,
@@ -1807,7 +1884,7 @@ function Home() {
 var __webpack_require__ = require("../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [697,505,635,485], () => (__webpack_exec__(5339)));
+var __webpack_exports__ = __webpack_require__.X(0, [697,603,635,996], () => (__webpack_exec__(1940)));
 module.exports = __webpack_exports__;
 
 })();

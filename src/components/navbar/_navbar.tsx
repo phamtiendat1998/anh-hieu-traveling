@@ -3,7 +3,7 @@ import styles from './_navbar.module.css';
 const NavBar = () => {
   return (
     <nav className={`${styles.nav} flex justify-center items-center`}>
-      <p>Anh Hiếu Traveling!</p>
+      <h1>Anh Hiếu Traveling!</h1>
     </nav>
   );
 };

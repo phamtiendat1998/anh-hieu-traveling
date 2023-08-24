@@ -1,21 +1,11 @@
-exports.id = 485;
-exports.ids = [485];
+exports.id = 996;
+exports.ids = [996];
 exports.modules = {
 
-/***/ 7085:
+/***/ 5646:
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
-Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 7734, 23));
-Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 8709, 23));
-Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 2698, 23));
-Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 7833, 23));
-Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 9150, 23))
-
-/***/ }),
-
-/***/ 3911:
-/***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
-
+Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 2927, 23));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 6474))
 
 /***/ }),
@@ -70,7 +60,7 @@ const Footer = ()=>{
                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("strong", {
                                         children: "Địa chỉ:"
                                     }),
-                                    " 32A, L\xfd Tự Trọng, th\xe0nhh phố Pleiku, tỉnh Gia Lai"
+                                    " 32A, L\xfd Tự Trọng, th\xe0nh phố Pleiku, tỉnh Gia Lai"
                                 ]
                             }),
                             /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("p", {
@@ -176,9 +166,9 @@ __webpack_require__.d(__webpack_exports__, {
 
 // EXTERNAL MODULE: external "next/dist/compiled/react/jsx-runtime"
 var jsx_runtime_ = __webpack_require__(6786);
-// EXTERNAL MODULE: ./node_modules/next/font/google/target.css?{"path":"src\\app\\layout.tsx","import":"Inter","arguments":[{"subsets":["latin"]}],"variableName":"inter"}
-var target_path_src_app_layout_tsx_import_Inter_arguments_subsets_latin_variableName_inter_ = __webpack_require__(7454);
-var target_path_src_app_layout_tsx_import_Inter_arguments_subsets_latin_variableName_inter_default = /*#__PURE__*/__webpack_require__.n(target_path_src_app_layout_tsx_import_Inter_arguments_subsets_latin_variableName_inter_);
+// EXTERNAL MODULE: ./node_modules/next/font/google/target.css?{"path":"src/app/layout.tsx","import":"Inter","arguments":[{"subsets":["latin"]}],"variableName":"inter"}
+var layout_tsx_import_Inter_arguments_subsets_latin_variableName_inter_ = __webpack_require__(6708);
+var layout_tsx_import_Inter_arguments_subsets_latin_variableName_inter_default = /*#__PURE__*/__webpack_require__.n(layout_tsx_import_Inter_arguments_subsets_latin_variableName_inter_);
 // EXTERNAL MODULE: ./src/components/navbar/_navbar.module.css
 var _navbar_module = __webpack_require__(7795);
 var _navbar_module_default = /*#__PURE__*/__webpack_require__.n(_navbar_module);
@@ -188,7 +178,7 @@ var _navbar_module_default = /*#__PURE__*/__webpack_require__.n(_navbar_module);
 const NavBar = ()=>{
     return /*#__PURE__*/ jsx_runtime_.jsx("nav", {
         className: `${(_navbar_module_default()).nav} flex justify-center items-center`,
-        children: /*#__PURE__*/ jsx_runtime_.jsx("p", {
+        children: /*#__PURE__*/ jsx_runtime_.jsx("h1", {
             children: "Anh Hiếu Traveling!"
         })
     });
@@ -201,7 +191,7 @@ var globals = __webpack_require__(5553);
 var module_proxy = __webpack_require__(1913);
 ;// CONCATENATED MODULE: ./src/components/footer/_footer.tsx
 
-const proxy = (0,module_proxy.createProxy)(String.raw`E:\Job\anh-hieu-traveling\src\components\footer\_footer.tsx`)
+const proxy = (0,module_proxy.createProxy)(String.raw`/Users/phamtiendat/Repository/anh-hieu-traveling/src/components/footer/_footer.tsx`)
 
 // Accessing the __esModule property and exporting $$typeof are required here.
 // The __esModule getter forces the proxy target to create the default export
@@ -212,27 +202,63 @@ const __default__ = proxy.default;
 
 
 /* harmony default export */ const _footer = (__default__);
+// EXTERNAL MODULE: ./node_modules/next/script.js
+var script = __webpack_require__(9663);
+var script_default = /*#__PURE__*/__webpack_require__.n(script);
 ;// CONCATENATED MODULE: ./src/app/layout.tsx
 
 
 
 
 
+
 const metadata = {
-    title: "Du lịch T\xe2y Nguy\xean - Du lịch Anh Hiếu",
-    description: "C\xf9ng nhau du lịch T\xe2y Nguy\xean c\xf9ng c\xe1c dịch vụ của Anh Hiếu Traveling nh\xe9!"
+    title: "Du lịch T\xe2y Nguy\xean - Du lịch Anh Hiếu: Thu\xea v\xe0 Cho Thu\xea xe",
+    description: "Kh\xe1m ph\xe1 vẻ đẹp hoang sơ v\xe0 đầy m\xea hoặc của T\xe2y Nguy\xean c\xf9ng Anh Hiếu. Ch\xfang t\xf4i mang đến những trải nghiệm du lịch tận hưởng thi\xean nhi\xean h\xf9ng vĩ, với những cảnh quan độc đ\xe1o v\xe0 văn h\xf3a đậm đ\xe0 của người d\xe2n địa phương. H\xe3y c\xf9ng ch\xfang t\xf4i kh\xe1m ph\xe1 những c\xe1nh đồng cỏ rộng lớn, những d\xe3y n\xfai đổ nghi\xeang, v\xe0 những bản l\xe0ng th\xe2n thiện tr\xean v\xf9ng đất T\xe2y Nguy\xean. Đặt ch\xe2n đến T\xe2y Nguy\xean, trải nghiệm chuyến du lịch \xfd nghĩa v\xe0 đầy trải nghiệm c\xf9ng Anh Hiếu.",
+    authors: {
+        url: "https://www.facebook.com/profile.php?id=100006188537389",
+        name: "Du lịch Anh Hiếu"
+    },
+    keywords: "dulich, dulich, anhhieu, Anh Hiếu, Du lịch Anh Hiếu, T\xe2y Nguy\xean, Du lịch T\xe2y Nguy\xean, xe du lịch, thu\xea xe du lịch, cho thu\xea xe, đặt xe, cho thu\xea xe du lịch, dịch vụ xe du lịch, dịch vụ thu\xea xe, dịch vụ cho thu\xea xe, xe du lich, dịch vụ cho thu\xea xe du lịch, thu\xea xe dịch vụ",
+    creator: "Tiến Đạt",
+    publisher: "Tiến Đạt",
+    robots: "index, follow",
+    alternates: {
+        canonical: "https://dulichanhhieu.vn"
+    },
+    category: "Traveling"
 };
 function Layout({ children }) {
-    return /*#__PURE__*/ jsx_runtime_.jsx("html", {
+    return /*#__PURE__*/ (0,jsx_runtime_.jsxs)("html", {
         lang: "en",
-        children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("body", {
-            className: (target_path_src_app_layout_tsx_import_Inter_arguments_subsets_latin_variableName_inter_default()).className,
-            children: [
-                /*#__PURE__*/ jsx_runtime_.jsx(_navbar, {}),
-                children,
-                /*#__PURE__*/ jsx_runtime_.jsx(_footer, {})
-            ]
-        })
+        children: [
+            " ",
+            /*#__PURE__*/ jsx_runtime_.jsx((script_default()), {
+                id: "gga-1",
+                strategy: "lazyOnload",
+                src: `https://www.googletagmanager.com/gtag/js?id=G-VJ36D1RJYV`
+            }),
+            /*#__PURE__*/ jsx_runtime_.jsx((script_default()), {
+                id: "gga-2",
+                strategy: "lazyOnload",
+                children: `
+                window.dataLayer = window.dataLayer || [];
+                function gtag(){dataLayer.push(arguments);}
+                gtag('js', new Date());
+                gtag('config', 'G-VJ36D1RJYV', {
+                page_path: window.location.pathname,
+                });
+            `
+            }),
+            /*#__PURE__*/ (0,jsx_runtime_.jsxs)("body", {
+                className: (layout_tsx_import_Inter_arguments_subsets_latin_variableName_inter_default()).className,
+                children: [
+                    /*#__PURE__*/ jsx_runtime_.jsx(_navbar, {}),
+                    children,
+                    /*#__PURE__*/ jsx_runtime_.jsx(_footer, {})
+                ]
+            })
+        ]
     });
 }
 
