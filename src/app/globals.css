@@ -21,19 +21,19 @@ html {
 
 @media only screen and (max-width: 576px) {
   html {
-    font-size: 6px;
+    font-size: 9px;
   }
 }
 
 @media only screen and (min-width: 576px) {
   html {
-    font-size: 8px;
+    font-size: 12px;
   }
 }
 
 @media only screen and (min-width: 768px) {
   html {
-    font-size: 10px;
+    font-size: 12px;
   }
 }
 

@@ -27,7 +27,7 @@
 
 .lienHeNgay {
     color: #000;
-    font-size: 1rem;
+    font-size: 1.2rem;
     font-family: DM Sans, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
         'Liberation Sans', sans-serif;
     white-space: nowrap;
@@ -43,14 +43,14 @@
 
 @media only screen and (max-width: 576px) {
     .root {
-        width: 96px;
-        height: 28.5px;
+        width: 130px;
+        height: 34px;
     }
 }
 
 @media only screen and (min-width: 576px) {
     .root {
-        width: 115px;
+        width: 130px;
         height: 34px;
     }
 }

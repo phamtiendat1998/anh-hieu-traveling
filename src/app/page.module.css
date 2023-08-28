@@ -21,7 +21,7 @@
 
 .banner>.left>span {
     font-family: 'Poppins';
-    font-size: 1.5rem;
+    font-size: 1.7rem;
     color: #333333;
     width: 70%;
 }
@@ -42,7 +42,7 @@
 }
 
 .service>span {
-    font-size: 1.5rem;
+    font-size: 1.7rem;
 }
 
 .popular {
@@ -61,7 +61,7 @@
 }
 
 .popular>span {
-    font-size: 1.5rem;
+    font-size: 1.7rem;
 }
 
 .why {
@@ -89,7 +89,7 @@
 }
 
 .why .right>span {
-    font-size: 1.5rem;
+    font-size: 1.7rem;
 }
 
 .images {
@@ -108,9 +108,53 @@
 }
 
 .images>span {
-    font-size: 1.5rem;
+    font-size: 1.7rem;
 }
 
 .images>.gallery {
     margin-top: 50px;
+}
+
+
+@media only screen and (max-width: 576px) {
+    .banner>.left>p:first-child,
+    .banner>.left>span {
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width: 576px) {
+
+    .banner>.left>p:first-child,
+    .banner>.left>span {
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .banner>.left>p:first-child,
+    .banner>.left>span {
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .banner>.left>p:first-child,
+    .banner>.left>span {
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .banner>.left>p:first-child,
+    .banner>.left>span {
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width: 1400px) {
+    .banner>.left>p:first-child,
+    .banner>.left>span {
+        text-align: left;
+    }
 }

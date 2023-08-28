@@ -1,8 +1,19 @@
-exports.id = 996;
-exports.ids = [996];
+exports.id = 597;
+exports.ids = [597];
 exports.modules = {
 
-/***/ 5646:
+/***/ 2648:
+/***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
+
+Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 7734, 23));
+Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 8709, 23));
+Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 2698, 23));
+Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 7833, 23));
+Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 9150, 23))
+
+/***/ }),
+
+/***/ 3206:
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
 Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 2927, 23));
@@ -230,7 +241,7 @@ const metadata = {
 };
 function Layout({ children }) {
     return /*#__PURE__*/ (0,jsx_runtime_.jsxs)("html", {
-        lang: "en",
+        lang: "vi",
         children: [
             " ",
             /*#__PURE__*/ jsx_runtime_.jsx((script_default()), {
