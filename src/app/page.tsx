@@ -8,6 +8,7 @@ import { WhySection } from '@/components/whySection/WhySection';
 import { GallerySection } from '@/components/gallerySection/_gallerySection';
 import { locationsConst } from '@/data/location';
 import { ServiceCard } from '@/components/serviceCard/_serviceCard';
+import { ScrollDown } from '@/components/scrollDown/_scrollDown';
 
 export default function Home() {
   return (
@@ -73,6 +74,8 @@ export default function Home() {
           <GallerySection />
         </div>
       </div>
+      
+      <ScrollDown></ScrollDown>
     </main>
   )
 }

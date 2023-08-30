@@ -245,7 +245,7 @@ __webpack_require__.r(__webpack_exports__);
         '',
         {
         children: ['__PAGE__', {}, {
-          page: [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 8379)), "/Users/phamtiendat/Repository/anh-hieu-traveling/src/app/page.tsx"],
+          page: [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 7597)), "/Users/phamtiendat/Repository/anh-hieu-traveling/src/app/page.tsx"],
           metadata: {
     icon: [(async (props) => (await Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 2819))).default(props))],
     apple: [],
@@ -281,7 +281,7 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ 7283:
+/***/ 2531:
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
 Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 9556, 23));
@@ -1009,6 +1009,7 @@ module.exports = {
 // Exports
 module.exports = {
 	"root": "_phoneButton_root__fizrX",
+	"float": "_phoneButton_float__2BjyK",
 	"group1": "_phoneButton_group1__xmAEP",
 	"icon": "_phoneButton_icon__QwkuG",
 	"lienHeNgay": "_phoneButton_lienHeNgay__pIKqQ",
@@ -1099,6 +1100,22 @@ module.exports = {
 
 /***/ }),
 
+/***/ 4126:
+/***/ ((module) => {
+
+// Exports
+module.exports = {
+	"main": "_scrollDown_main__YPNyA",
+	"arrows": "_scrollDown_arrows__k3NMc",
+	"arrow": "_scrollDown_arrow__wkX6x",
+	"a1": "_scrollDown_a1__DdRJ2",
+	"a2": "_scrollDown_a2__eioTn",
+	"a3": "_scrollDown_a3__47Wz1"
+};
+
+
+/***/ }),
+
 /***/ 2390:
 /***/ ((module) => {
 
@@ -1139,7 +1156,7 @@ module.exports = {
 
 /***/ }),
 
-/***/ 8379:
+/***/ 7597:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -1682,7 +1699,37 @@ const ServiceCard = (props)=>{
     });
 };
 
+// EXTERNAL MODULE: ./src/components/scrollDown/_scrollDown.module.css
+var _scrollDown_module = __webpack_require__(4126);
+var _scrollDown_module_default = /*#__PURE__*/__webpack_require__.n(_scrollDown_module);
+;// CONCATENATED MODULE: ./src/components/scrollDown/_scrollDown.tsx
+
+
+const ScrollDown = ()=>{
+    return /*#__PURE__*/ jsx_runtime_.jsx("div", {
+        className: `${(_scrollDown_module_default()).main}`,
+        children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("svg", {
+            className: `${(_scrollDown_module_default()).arrows}`,
+            children: [
+                /*#__PURE__*/ jsx_runtime_.jsx("path", {
+                    className: `${(_scrollDown_module_default()).a1}`,
+                    d: "M0 0 L30 32 L60 0"
+                }),
+                /*#__PURE__*/ jsx_runtime_.jsx("path", {
+                    className: `${(_scrollDown_module_default()).a2}`,
+                    d: "M0 20 L30 52 L60 20"
+                }),
+                /*#__PURE__*/ jsx_runtime_.jsx("path", {
+                    className: `${(_scrollDown_module_default()).a3}`,
+                    d: "M0 40 L30 72 L60 40"
+                })
+            ]
+        })
+    });
+};
+
 ;// CONCATENATED MODULE: ./src/app/page.tsx
+
 
 
 
@@ -1858,7 +1905,8 @@ function Home() {
                         children: /*#__PURE__*/ jsx_runtime_.jsx(_gallerySection_e0, {})
                     })
                 ]
-            })
+            }),
+            /*#__PURE__*/ jsx_runtime_.jsx(ScrollDown, {})
         ]
     });
 }
@@ -1873,7 +1921,7 @@ function Home() {
 var __webpack_require__ = require("../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [697,603,635,597], () => (__webpack_exec__(1940)));
+var __webpack_exports__ = __webpack_require__.X(0, [697,603,635,885], () => (__webpack_exec__(1940)));
 module.exports = __webpack_exports__;
 
 })();
