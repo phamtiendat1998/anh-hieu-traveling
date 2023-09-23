@@ -1,6 +1,7 @@
 .iconlyBoldLocation.iconlyBoldLocation {
-  width: 12px;
-  height: 12px;
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
 }
 
 .location.location {
@@ -18,8 +19,8 @@
 }
 
 .icon {
-  width: 100%;
-  height: 100%;
+  width: 20px;
+  height: 20px;
 }
 
 .root {
@@ -40,26 +41,20 @@
   outline: solid 1px #fff;
   outline-offset: -1px;
   border-radius: 16px;
-  background-color: #baeaf74a;
-  box-shadow: 0px 0px 2px 0px #f2ede8;
-  backdrop-filter: blur(2px);
+  box-shadow: 0px 16px 24px 0px #6061701f, 0px 2px 8px 0px #28293d05;
 }
 
 .image {
-  position: absolute;
-  left: 5.4054%;
-  right: 5.4054%;
-  top: 4.8193%;
-  bottom: 40.9639%;
-  width: 264px;
-  height: 180px;
-  border-radius: 8px;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  height: 200px;
+  border-radius: 25px 25px 0 0;
   box-shadow: 0px 6px 16px 0px #00000005;
 }
 
 .image img{
   object-fit: cover;
-  border-radius: 15px;
 }
 
 .info {
@@ -92,7 +87,6 @@
 
 .tPKonTum {
   color: #8f8f8f;
-  font-size: 10px;
   line-height: 140%;
   font-family: Lato, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
     'Liberation Sans', sans-serif;
@@ -110,13 +104,7 @@
 }
 
 .mangEn {
-  color: #333;
-  font-size: 16px;
   line-height: 140%;
-  font-weight: bold;
-  font-family: Lato, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
-    'Liberation Sans', sans-serif;
-  letter-spacing: 0.5px;
   width: min-content;
   height: min-content;
   white-space: nowrap;
@@ -124,13 +112,8 @@
 }
 
 .AtXe {
-  color: #42a7c3;
-  font-size: 14px;
-  line-height: 140%;
+  color: var(--primary-color);
   font-weight: bold;
-  font-family: Lato, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
-    'Liberation Sans', sans-serif;
-  letter-spacing: 0.0125em;
   width: min-content;
   height: min-content;
   white-space: nowrap;

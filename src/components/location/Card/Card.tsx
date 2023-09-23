@@ -45,13 +45,13 @@ export const Card = (props: Props) => {
                 ),
               }}
             />
-            <div className={classes.tPKonTum}>{props.location}</div>
+            <p className={classes.tPKonTum}>{props.location}</p>
           </div>
           <div className={classes.frame26}>
-            <div className={classes.mangEn}>{props.name}</div>
+            <p className={classes.mangEn}>{props.name}</p>
           </div>
         </div>
-        <div className={classes.AtXe}>Đặt xe</div>
+        <p className={classes.AtXe}>Đặt xe</p>
       </div>
     </div >
   );

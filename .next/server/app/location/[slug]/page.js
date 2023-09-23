@@ -220,7 +220,7 @@ module.exports = require("util");
 
 /***/ }),
 
-/***/ 9319:
+/***/ 9696:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -251,7 +251,7 @@ __webpack_require__.r(__webpack_exports__);
         '[slug]',
         {
         children: ['__PAGE__', {}, {
-          page: [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 2228)), "/Users/phamtiendat/Repository/anh-hieu-traveling/src/app/location/[slug]/page.tsx"],
+          page: [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 2228)), "C:\\Users\\ADMIN\\Repositories\\anh-hieu-traveling\\src\\app\\location\\[slug]\\page.tsx"],
           
         }]
       },
@@ -274,7 +274,7 @@ __webpack_require__.r(__webpack_exports__);
       ]
       },
         {
-          'layout': [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 6369)), "/Users/phamtiendat/Repository/anh-hieu-traveling/src/app/layout.tsx"],
+          'layout': [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 6369)), "C:\\Users\\ADMIN\\Repositories\\anh-hieu-traveling\\src\\app\\layout.tsx"],
           metadata: {
     icon: [(async (props) => (await Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 2819))).default(props))],
     apple: [],
@@ -285,7 +285,7 @@ __webpack_require__.r(__webpack_exports__);
         }
       ]
       }.children;
-    const pages = ["/Users/phamtiendat/Repository/anh-hieu-traveling/src/app/location/[slug]/page.tsx"];
+    const pages = ["C:\\Users\\ADMIN\\Repositories\\anh-hieu-traveling\\src\\app\\location\\[slug]\\page.tsx"];
     
     const originalPathname = "/location/[slug]/page"
     const __next_app__ = {
@@ -336,7 +336,7 @@ function Page({ params }) {
 var __webpack_require__ = require("../../../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [697,603,885], () => (__webpack_exec__(9319)));
+var __webpack_exports__ = __webpack_require__.X(0, [697,605,899], () => (__webpack_exec__(9696)));
 module.exports = __webpack_exports__;
 
 })();

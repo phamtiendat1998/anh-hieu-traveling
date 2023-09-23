@@ -1,160 +1,215 @@
 .main {
-    padding: 0 8.27vw;
     position: relative;
     overflow: hidden;
 }
 
 .banner {
-    min-height: 75vh;
-    margin-bottom: 15vh;
-}
-
-.banner>.left {
-    height: 100%;
-}
-
-.banner>.left>p:first-child {
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 3.5rem;
-    line-height: 115%;
-}
-
-.banner>.left>span {
-    font-family: 'Poppins';
-    font-size: 1.7rem;
-    color: #333333;
-    width: 70%;
-}
-
-.service {
-    padding-bottom: 280px;
-}
-
-.service>p,
-.service>span {
-    font-family: 'Lato';
-    line-height: 140%;
-}
-
-.service>p {
-    font-size: 2.5rem;
-    font-weight: bold;
-}
-
-.service>span {
-    font-size: 1.7rem;
-}
-
-.popular {
-    padding-bottom: 88px;
-}
-
-.popular>p,
-.popular>span {
-    font-family: 'Lato';
-    line-height: 140%;
-}
-
-.popular>p {
-    font-size: 2.5rem;
-    font-weight: bold;
-}
-
-.popular>span {
-    font-size: 1.7rem;
-}
-
-.why {
-    padding: 88px 0;
-}
-
-.why .left,
-.why .right {
+    padding: 80px;
+    height: 100vh;
     width: 100%;
+    background-image: url('https://firebasestorage.googleapis.com/v0/b/anh-hieu-traveling.appspot.com/o/home%2Fstarted.jpg?alt=media&token=5b6555a2-8e3c-4572-be80-bd413e68c225');
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    text-align: center;
 }
 
-.why .right>img {
+.intro {
+    padding: var(--space-1);
+}
+
+.intro h4 {
+    color: var(--primary-color)
+}
+
+.intro>.left {
+    padding-right: 50px;
+}
+
+.intro>.right {
+    padding-left: 50px;
     width: 80%;
 }
 
-.why .right>p,
-.why .right>span {
-    font-family: 'Lato';
-    line-height: 140%;
+.vehical {
+    padding: var(--space-1);
+    background-color: var(--background-1);
+    text-align: center;
 }
 
-.why .right>p {
-    font-size: 2.5rem;
-    font-weight: bold;
+.vehical .vehicalItem {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    box-shadow: 0px 16px 24px 0px #6061701f, 0px 2px 8px 0px #28293d05;
+    padding: 20px;
 }
 
-.why .right>span {
-    font-size: 1.7rem;
+.vehical .vehicalItem img {
+    height: 450px !important;
+    position: relative !important;
+    border-radius: 20px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.vehical .vehicalItem h5 {
+    color: var(--primary-color)
+}
+
+.vehical .vehicalItem a {
+    text-decoration: underline;
+}
+
+.service {
+    text-align: center;
+    padding: var(--space-1);
+}
+
+.service .serviceList {
+    padding-top: 100px;
+}
+
+.location {
+    text-align: center;
+    padding: var(--space-1);
+    background-color: var(--background-1);
+}
+
+.location .mapouter {
+    margin-top: 100px;
+    border-radius: 25px;
+    overflow: hidden;
+}
+
+
+.popular {
+    text-align: center;
+    padding: var(--space-1);
+}
+
+.popular .popularList {
+    margin-top: 100px;
 }
 
 .images {
-    padding: 88px 0;
-}
-
-.images>p,
-.images>span {
-    font-family: 'Lato';
-    line-height: 140%;
-}
-
-.images>p {
-    font-size: 2.5rem;
-    font-weight: bold;
-}
-
-.images>span {
-    font-size: 1.7rem;
+    padding: var(--space-1);
+    background-color: var(--background-1);
+    text-align: center;
 }
 
 .images>.gallery {
-    margin-top: 50px;
+    margin-top: 100px;
 }
 
+@media only screen and (max-width: 576px) {
+    .intro {
+        padding: var(--space-2);
+    }
+
+    .vehical {
+        padding: var(--space-2);
+    }
+
+    .service {
+        padding: var(--space-2);
+    }
+    
+    .location {
+        padding: var(--space-2);
+    }
+
+    .popular {
+        padding: var(--space-2);
+    }
+    
+    
+    .intro>.left {
+        padding: 0;
+        padding-bottom: 80px;
+    }
+    
+    .intro>.right {
+        width: 100%;
+    }
+    
+}
 
 @media only screen and (max-width: 576px) {
-    .banner>.left>p:first-child,
-    .banner>.left>span {
-        text-align: center;
+
+    .intro>.left {
+        padding: 0;
+        padding-bottom: 80px;
+    }
+    
+    .intro>.right {
+        padding: 0;
+        width: 100%;
     }
 }
 
+
 @media only screen and (min-width: 576px) {
 
-    .banner>.left>p:first-child,
-    .banner>.left>span {
-        text-align: center;
+    .intro>.left {
+        padding: 80px;
+        padding-bottom: 80px;
+    }
+    
+    .intro>.right {
+        padding: 80px;
+        width: 100%;
     }
 }
 
 @media only screen and (min-width: 768px) {
-    .banner>.left>p:first-child,
-    .banner>.left>span {
-        text-align: center;
+
+    .intro>.left {
+        padding: 80px;
+        padding-bottom: 80px;
+    }
+    
+    .intro>.right {
+        padding: 0 80px;
+        width: 100%;
     }
 }
 
 @media only screen and (min-width: 992px) {
-    .banner>.left>p:first-child,
-    .banner>.left>span {
-        text-align: center;
+
+    .intro>.left {
+        padding: 80px;
+        padding-bottom: 80px;
+    }
+    
+    .intro>.right {
+        padding: 0 80px;
+        width: 100%;
     }
 }
 
 @media only screen and (min-width: 1200px) {
-    .banner>.left>p:first-child,
-    .banner>.left>span {
-        text-align: center;
+
+    .intro>.left {
+        padding: 80px;
+        padding-bottom: 80px;
+    }
+    
+    .intro>.right {
+        padding: 0 80px;
+        width: 100%;
     }
 }
 
 @media only screen and (min-width: 1400px) {
-    .banner>.left>p:first-child,
-    .banner>.left>span {
-        text-align: left;
+
+    .intro>.left {
+        padding: 80px;
+        padding-bottom: 80px;
+    }
+    
+    .intro>.right {
+        padding: 0 80px;
+        width: 100%;
     }
 }

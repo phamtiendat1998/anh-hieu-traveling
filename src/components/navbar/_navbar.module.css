@@ -1,11 +1,96 @@
 .nav {
-    height: 112px;
+    height: 80px;
     width: 100%;
+    padding: 0 80px;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+    transition: all 0.5s;
 }
 
-.nav h1 {
-    font-size: 2.5rem;
-    color: var(--primary-color);
-    font-family: 'Roboto';
+.nav h6,
+.nav a {
+    color: white;
+}
+
+.nav h6 {
+    font-size: 1.5rem;
     font-weight: bold;
+    text-align: center;
+}
+
+.nav ul {
+    list-style: none;
+}
+
+.nav li {
+    float: left;
+    margin: 0 15px;
+    text-decoration: underline;
+    text-decoration-color: white;
+}
+
+.show {
+    background-color: white;
+    box-shadow: 0px 4px 4px 0px #00000040;
+}
+
+.show h6,
+.show a {
+    color: black !important;
+}
+
+.show a {
+    text-decoration-color: black;
+}
+
+@media only screen and (max-width: 576px) {
+    .nav {
+        padding: 0 40px;
+    }
+
+    .nav ul {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 576px) {
+    .nav {
+        padding: 0 40px;
+    }
+
+    .nav ul {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .nav {
+        padding: 0 40px;
+    }
+
+    .nav ul {
+        display: none;
+    }
+
+}
+
+@media only screen and (min-width: 992px) {
+    .nav {
+        padding: 0 40px;
+    }
+
+    .nav ul {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .nav {
+        padding: 0 40px;
+    }
+
+    .nav ul {
+        display: none;
+    }
 }

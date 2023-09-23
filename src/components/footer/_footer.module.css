@@ -1,47 +1,36 @@
 .footer {
-    padding: 100px 5vw;
-    height: 700px;
     width: 100%;
     position: relative;
-    background-color: var(--primary-color);
-    border-top-right-radius: 30px;
-    border-top-left-radius: 30px;
-    margin-top: 88px;
+    color: black;
 }
 
 .img {
     position: absolute;
-    bottom: 0;
-    left: 0;
-}
-
-.copy {
-    color: white;
-    position: absolute;
-    bottom: 0;
+    top: -20px;
+    left: 50%;
+    height: 40px;
+    width: 40px;
+    transform: translateX(-50%);
 }
 
 .info {
-    padding: 40px;
-    width: calc(100% - 5vw);
-    height: 50%;
-    position: absolute;
-    backdrop-filter: blur(20px);
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    border-radius: 20px;
-    border: solid 1px white;
-    color: white;
+    padding-left: 80px;
+    padding-top: 100px;
+    padding-right: 80px;
+    padding-bottom: 20px;
+    background-color: #32DF8F;
+    width: 100%;
 }
 
-.company {
-    font-size: 2.5rem;
-    font-family: 'Roboto';
+.nav {
     font-weight: bold;
 }
 
-.sub{
-    font-size: 1.7rem;
-    font-family: 'Roboto'; 
+.nav a {
+    text-decoration: underline;
+}
+
+.hr {
+    margin: 20px 0;
+    border-color: black;
 }
