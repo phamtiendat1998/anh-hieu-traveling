@@ -360,7 +360,7 @@ const Memo = /*#__PURE__*/ (0,react_.memo)(VectorIcon);
 /* @figmaId 104:38 */ const PhoneButton = /*#__PURE__*/ (0,react_.memo)(function PhoneButton(props) {
     return /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
         className: `${(_resets_module_default()).clapyResets} ${(_phoneButton_module_default()).root}`,
-        onClick: ()=>window.open("tel:0981530009"),
+        onClick: ()=>window.open("tel:" + props.phone.replaceAll(" ", "")),
         children: [
             /*#__PURE__*/ jsx_runtime_.jsx("h5", {
                 className: (_phoneButton_module_default()).lienHeNgay,
@@ -801,34 +801,34 @@ const images_images = [
         height: 320,
         caption: "Ảnh 2-4"
     },
-    {
-        src: "https://firebasestorage.googleapis.com/v0/b/anh-hieu-traveling.appspot.com/o/xe2%2F369354982_3511319882417595_2137068184336963161_n.jpg?alt=media&token=3e939c91-4f43-4653-9483-799fc4d3c32c",
-        original: "https://firebasestorage.googleapis.com/v0/b/anh-hieu-traveling.appspot.com/o/xe2%2F369354982_3511319882417595_2137068184336963161_n.jpg?alt=media&token=3e939c91-4f43-4653-9483-799fc4d3c32c",
-        width: 144,
-        height: 320,
-        caption: "Ảnh 2-5"
-    },
-    {
-        src: "https://firebasestorage.googleapis.com/v0/b/anh-hieu-traveling.appspot.com/o/xe2%2F369368288_3511319925750924_2435721584689877431_n.jpg?alt=media&token=b78e5438-87a9-440d-91e0-bc55b273e1e8",
-        original: "https://firebasestorage.googleapis.com/v0/b/anh-hieu-traveling.appspot.com/o/xe2%2F369368288_3511319925750924_2435721584689877431_n.jpg?alt=media&token=b78e5438-87a9-440d-91e0-bc55b273e1e8",
-        width: 427,
-        height: 320,
-        caption: "Ảnh 2-6"
-    },
-    {
-        src: "https://firebasestorage.googleapis.com/v0/b/anh-hieu-traveling.appspot.com/o/xe2%2F369855013_3511319775750939_8830861827467724328_n.jpg?alt=media&token=c02fb77f-de65-4db2-bad8-59246e8cad9b",
-        original: "https://firebasestorage.googleapis.com/v0/b/anh-hieu-traveling.appspot.com/o/xe2%2F369855013_3511319775750939_8830861827467724328_n.jpg?alt=media&token=c02fb77f-de65-4db2-bad8-59246e8cad9b",
-        width: 427,
-        height: 320,
-        caption: "Ảnh 2-7"
-    },
-    {
-        src: "https://firebasestorage.googleapis.com/v0/b/anh-hieu-traveling.appspot.com/o/xe2%2F369860532_3511319759084274_1399429996756225385_n.jpg?alt=media&token=c80bf46f-f96e-46c7-a5ca-22f837f04371",
-        original: "https://firebasestorage.googleapis.com/v0/b/anh-hieu-traveling.appspot.com/o/xe2%2F369860532_3511319759084274_1399429996756225385_n.jpg?alt=media&token=c80bf46f-f96e-46c7-a5ca-22f837f04371",
-        width: 427,
-        height: 320,
-        caption: "Ảnh 2-8"
-    },
+    // {
+    //   src: "https://firebasestorage.googleapis.com/v0/b/anh-hieu-traveling.appspot.com/o/xe2%2F369354982_3511319882417595_2137068184336963161_n.jpg?alt=media&token=3e939c91-4f43-4653-9483-799fc4d3c32c",
+    //   original: "https://firebasestorage.googleapis.com/v0/b/anh-hieu-traveling.appspot.com/o/xe2%2F369354982_3511319882417595_2137068184336963161_n.jpg?alt=media&token=3e939c91-4f43-4653-9483-799fc4d3c32c",
+    //   width: 144,
+    //   height: 320,
+    //   caption: "Ảnh 2-5",
+    // },
+    // {
+    //   src: "https://firebasestorage.googleapis.com/v0/b/anh-hieu-traveling.appspot.com/o/xe2%2F369368288_3511319925750924_2435721584689877431_n.jpg?alt=media&token=b78e5438-87a9-440d-91e0-bc55b273e1e8",
+    //   original: "https://firebasestorage.googleapis.com/v0/b/anh-hieu-traveling.appspot.com/o/xe2%2F369368288_3511319925750924_2435721584689877431_n.jpg?alt=media&token=b78e5438-87a9-440d-91e0-bc55b273e1e8",
+    //   width: 427,
+    //   height: 320,
+    //   caption: "Ảnh 2-6",
+    // },
+    // {
+    //   src: "https://firebasestorage.googleapis.com/v0/b/anh-hieu-traveling.appspot.com/o/xe2%2F369855013_3511319775750939_8830861827467724328_n.jpg?alt=media&token=c02fb77f-de65-4db2-bad8-59246e8cad9b",
+    //   original: "https://firebasestorage.googleapis.com/v0/b/anh-hieu-traveling.appspot.com/o/xe2%2F369855013_3511319775750939_8830861827467724328_n.jpg?alt=media&token=c02fb77f-de65-4db2-bad8-59246e8cad9b",
+    //   width: 427,
+    //   height: 320,
+    //   caption: "Ảnh 2-7",
+    // },
+    // {
+    //   src: "https://firebasestorage.googleapis.com/v0/b/anh-hieu-traveling.appspot.com/o/xe2%2F369860532_3511319759084274_1399429996756225385_n.jpg?alt=media&token=c80bf46f-f96e-46c7-a5ca-22f837f04371",
+    //   original: "https://firebasestorage.googleapis.com/v0/b/anh-hieu-traveling.appspot.com/o/xe2%2F369860532_3511319759084274_1399429996756225385_n.jpg?alt=media&token=c80bf46f-f96e-46c7-a5ca-22f837f04371",
+    //   width: 427,
+    //   height: 320,
+    //   caption: "Ảnh 2-8",
+    // },
     {
         src: "https://firebasestorage.googleapis.com/v0/b/anh-hieu-traveling.appspot.com/o/xe2%2F369906518_3511319829084267_8661333721004026161_n.jpg?alt=media&token=5b0f79ad-6c22-443d-8e7e-c65d4e5451db",
         original: "https://firebasestorage.googleapis.com/v0/b/anh-hieu-traveling.appspot.com/o/xe2%2F369906518_3511319829084267_8661333721004026161_n.jpg?alt=media&token=5b0f79ad-6c22-443d-8e7e-c65d4e5451db",
@@ -849,6 +849,13 @@ const images_images = [
         width: 693,
         height: 320,
         caption: "Ảnh 2-11"
+    },
+    {
+        src: "https://firebasestorage.googleapis.com/v0/b/anh-hieu-traveling.appspot.com/o/vehical%2F29cho-2.jpg?alt=media&token=105a570b-bfe9-4df8-9694-349632ea573b",
+        original: "https://firebasestorage.googleapis.com/v0/b/anh-hieu-traveling.appspot.com/o/vehical%2F29cho-2.jpg?alt=media&token=105a570b-bfe9-4df8-9694-349632ea573b",
+        width: 600,
+        height: 693,
+        caption: "Ảnh 2-12"
     }
 ];
 
@@ -1133,7 +1140,7 @@ function Home() {
                         whileInView: "show",
                         exit: "hide",
                         children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
-                            src: "https://firebasestorage.googleapis.com/v0/b/anh-hieu-traveling.appspot.com/o/home%2Fbanner-car.png?alt=media&token=13459dcc-5673-4d90-9fef-1f1f74a3474d",
+                            src: "https://firebasestorage.googleapis.com/v0/b/anh-hieu-traveling.appspot.com/o/home%2Fbanner.png?alt=media&token=c5ceaf61-7d5a-421a-b89e-e7e6a3196fbd",
                             width: 648,
                             height: 594,
                             alt: "H\xe3y chọn ch\xfang t\xf4i"
@@ -1306,7 +1313,7 @@ function Home() {
                                 exit: "hide",
                                 children: [
                                     /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
-                                        src: "https://firebasestorage.googleapis.com/v0/b/anh-hieu-traveling.appspot.com/o/vehical%2F29cho.jpg?alt=media&token=1d56714b-c738-412d-9b68-68503517026b",
+                                        src: "https://firebasestorage.googleapis.com/v0/b/anh-hieu-traveling.appspot.com/o/vehical%2F29cho-2.jpg?alt=media&token=105a570b-bfe9-4df8-9694-349632ea573b",
                                         fill: true,
                                         alt: "Xe 29 chỗ"
                                     }),
@@ -1656,7 +1663,7 @@ const __default__ = proxy.default;
 var __webpack_require__ = require("../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [697,605,837,899], () => (__webpack_exec__(9737)));
+var __webpack_exports__ = __webpack_require__.X(0, [697,605,837,375], () => (__webpack_exec__(9737)));
 module.exports = __webpack_exports__;
 
 })();
