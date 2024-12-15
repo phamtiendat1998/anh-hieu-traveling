@@ -13,7 +13,7 @@ interface Props {
 /* @figmaId 104:38 */
 export const PhoneButton: FC<Props> = memo(function PhoneButton(props: Props) {
   return (
-    <div className={`${resets.clapyResets} ${classes.root}`} onClick={() => window.open('tel:0981530009')}>
+    <div className={`${resets.clapyResets} ${classes.root}`} onClick={() => window.open('tel:' + props.phone.replaceAll(' ',''))}>
       <h5 className={classes.lienHeNgay}>{props.phone}</h5>
       <div className={classes.line}>
         <Phone />

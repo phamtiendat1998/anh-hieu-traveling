@@ -33,7 +33,7 @@ export default function Home() {
           whileInView="show"
           exit="hide"
         >
-          <Image src='https://firebasestorage.googleapis.com/v0/b/anh-hieu-traveling.appspot.com/o/home%2Fbanner-car.png?alt=media&token=13459dcc-5673-4d90-9fef-1f1f74a3474d' width={648} height={594} alt='Hãy chọn chúng tôi'></Image>
+          <Image src='https://firebasestorage.googleapis.com/v0/b/anh-hieu-traveling.appspot.com/o/home%2Fbanner.png?alt=media&token=c5ceaf61-7d5a-421a-b89e-e7e6a3196fbd' width={648} height={594} alt='Hãy chọn chúng tôi'></Image>
         </motion.div>
         <motion.div
           className={`${styles.right} flex-1 flex flex-col justify-center justify-center text-center`}
@@ -115,7 +115,7 @@ export default function Home() {
             initial="hide"
             whileInView="show"
             exit="hide">
-            <Image src='https://firebasestorage.googleapis.com/v0/b/anh-hieu-traveling.appspot.com/o/vehical%2F29cho.jpg?alt=media&token=1d56714b-c738-412d-9b68-68503517026b' fill={true} alt='Xe 29 chỗ'></Image>
+            <Image src='https://firebasestorage.googleapis.com/v0/b/anh-hieu-traveling.appspot.com/o/vehical%2F29cho-2.jpg?alt=media&token=105a570b-bfe9-4df8-9694-349632ea573b' fill={true} alt='Xe 29 chỗ'></Image>
             <h5>Xe 29 chỗ</h5>
             <a href='#'>Xem thêm</a>
           </motion.div>
