@@ -322,13 +322,13 @@ var _phone_module_default = /*#__PURE__*/__webpack_require__.n(_phone_module);
 ;// CONCATENATED MODULE: ./src/components/button/phone/_vectorIcon.tsx
 
 
-const VectorIcon = (props)=>/*#__PURE__*/ jsx_runtime_.jsx("svg", {
+const VectorIcon = (props)=>/*#__PURE__*/ (0,jsx_runtime_.jsx)("svg", {
         preserveAspectRatio: "none",
         viewBox: "0 0 18 18",
         fill: "none",
         xmlns: "http://www.w3.org/2000/svg",
         ...props,
-        children: /*#__PURE__*/ jsx_runtime_.jsx("path", {
+        children: /*#__PURE__*/ (0,jsx_runtime_.jsx)("path", {
             d: "M3.62 7.79C5.06 10.62 7.38 12.93 10.21 14.38L12.41 12.18C12.68 11.91 13.08 11.82 13.43 11.94C14.55 12.31 15.76 12.51 17 12.51C17.55 12.51 18 12.96 18 13.51V17C18 17.55 17.55 18 17 18C7.61 18 0 10.39 0 1C0 0.45 0.45 0 1 0H4.5C5.05 0 5.5 0.45 5.5 1C5.5 2.25 5.7 3.45 6.07 4.57C6.18 4.92 6.1 5.31 5.82 5.59L3.62 7.79Z",
             fill: "#323232"
         })
@@ -343,9 +343,9 @@ const Memo = /*#__PURE__*/ (0,react_.memo)(VectorIcon);
 
 
 /* @figmaId 104:47 */ const Phone = /*#__PURE__*/ (0,react_.memo)(function Phone(props = {}) {
-    return /*#__PURE__*/ jsx_runtime_.jsx("div", {
+    return /*#__PURE__*/ (0,jsx_runtime_.jsx)("div", {
         className: `${(_resets_module_default()).clapyResets} ${(_phone_module_default()).root}`,
-        children: /*#__PURE__*/ jsx_runtime_.jsx(Memo, {
+        children: /*#__PURE__*/ (0,jsx_runtime_.jsx)(Memo, {
             className: (_phone_module_default()).icon
         })
     });
@@ -362,13 +362,13 @@ const Memo = /*#__PURE__*/ (0,react_.memo)(VectorIcon);
         className: `${(_resets_module_default()).clapyResets} ${(_phoneButton_module_default()).root}`,
         onClick: ()=>window.open("tel:" + props.phone.replaceAll(" ", "")),
         children: [
-            /*#__PURE__*/ jsx_runtime_.jsx("h5", {
+            /*#__PURE__*/ (0,jsx_runtime_.jsx)("h5", {
                 className: (_phoneButton_module_default()).lienHeNgay,
                 children: props.phone
             }),
-            /*#__PURE__*/ jsx_runtime_.jsx("div", {
+            /*#__PURE__*/ (0,jsx_runtime_.jsx)("div", {
                 className: (_phoneButton_module_default()).line,
-                children: /*#__PURE__*/ jsx_runtime_.jsx(Phone, {})
+                children: /*#__PURE__*/ (0,jsx_runtime_.jsx)(Phone, {})
             })
         ]
     });
@@ -386,13 +386,13 @@ var IconlyBoldLocation_module_default = /*#__PURE__*/__webpack_require__.n(Iconl
 ;// CONCATENATED MODULE: ./src/components/location/Card/IconlyBoldLocation/LocationIcon.tsx
 
 
-const LocationIcon = (props)=>/*#__PURE__*/ jsx_runtime_.jsx("svg", {
+const LocationIcon = (props)=>/*#__PURE__*/ (0,jsx_runtime_.jsx)("svg", {
         preserveAspectRatio: "none",
         viewBox: "0 0 30 30",
         fill: "none",
         xmlns: "http://www.w3.org/2000/svg",
         ...props,
-        children: /*#__PURE__*/ jsx_runtime_.jsx("path", {
+        children: /*#__PURE__*/ (0,jsx_runtime_.jsx)("path", {
             fillRule: "evenodd",
             clipRule: "evenodd",
             d: "M0.5 8.31776C0.5 3.71789 4.34388 0 8.99345 0C13.6561 0 17.5 3.71789 17.5 8.31776C17.5 10.6357 16.657 12.7876 15.2695 14.6116C13.7388 16.6235 11.8522 18.3765 9.72854 19.7524C9.24251 20.0704 8.80387 20.0944 8.27045 19.7524C6.13474 18.3765 4.24809 16.6235 2.7305 14.6116C1.34198 12.7876 0.5 10.6357 0.5 8.31776ZM6.19423 8.57675C6.19423 10.1177 7.45166 11.3297 8.99345 11.3297C10.5362 11.3297 11.8058 10.1177 11.8058 8.57675C11.8058 7.0478 10.5362 5.77683 8.99345 5.77683C7.45166 5.77683 6.19423 7.0478 6.19423 8.57675Z",
@@ -409,11 +409,11 @@ const LocationIcon_Memo = /*#__PURE__*/ (0,react_.memo)(LocationIcon);
 
 
 /* @figmaId 1:287 */ const IconlyBoldLocation = /*#__PURE__*/ (0,react_.memo)(function IconlyBoldLocation(props = {}) {
-    return /*#__PURE__*/ jsx_runtime_.jsx("div", {
+    return /*#__PURE__*/ (0,jsx_runtime_.jsx)("div", {
         className: `${(location_resets_module_default()).clapyResets} ${props.classes?.root || ""} ${props.className || ""} ${(IconlyBoldLocation_module_default()).root}`,
-        children: /*#__PURE__*/ jsx_runtime_.jsx("div", {
+        children: /*#__PURE__*/ (0,jsx_runtime_.jsx)("div", {
             className: `${props.classes?.location || ""} ${(IconlyBoldLocation_module_default()).location}`,
-            children: props.swap?.location || /*#__PURE__*/ jsx_runtime_.jsx(LocationIcon_Memo, {
+            children: props.swap?.location || /*#__PURE__*/ (0,jsx_runtime_.jsx)(LocationIcon_Memo, {
                 className: (IconlyBoldLocation_module_default()).icon
             })
         })
@@ -423,13 +423,13 @@ const LocationIcon_Memo = /*#__PURE__*/ (0,react_.memo)(LocationIcon);
 ;// CONCATENATED MODULE: ./src/components/location/Card/LocationIcon.tsx
 
 
-const LocationIcon_LocationIcon = (props)=>/*#__PURE__*/ jsx_runtime_.jsx("svg", {
+const LocationIcon_LocationIcon = (props)=>/*#__PURE__*/ (0,jsx_runtime_.jsx)("svg", {
         preserveAspectRatio: "none",
         viewBox: "0 0 10 10",
         fill: "none",
         xmlns: "http://www.w3.org/2000/svg",
         ...props,
-        children: /*#__PURE__*/ jsx_runtime_.jsx("path", {
+        children: /*#__PURE__*/ (0,jsx_runtime_.jsx)("path", {
             fillRule: "evenodd",
             clipRule: "evenodd",
             d: "M0.75 4.15888C0.75 1.85895 2.67194 0 4.99672 0C7.32806 0 9.25 1.85895 9.25 4.15888C9.25 5.31785 8.8285 6.39381 8.13475 7.30579C7.3694 8.31176 6.42608 9.18823 5.36427 9.87621C5.12126 10.0352 4.90194 10.0472 4.63522 9.87621C3.56737 9.18823 2.62404 8.31176 1.86525 7.30579C1.17099 6.39381 0.75 5.31785 0.75 4.15888ZM3.59711 4.28838C3.59711 5.05885 4.22583 5.66483 4.99672 5.66483C5.76812 5.66483 6.40289 5.05885 6.40289 4.28838C6.40289 3.5239 5.76812 2.88842 4.99672 2.88842C4.22583 2.88842 3.59711 3.5239 3.59711 4.28838Z",
@@ -456,12 +456,12 @@ var navigation = __webpack_require__(9483);
         className: `${(location_resets_module_default()).clapyResets} ${(Card_module_default()).root}`,
         onClick: ()=>window.open("tel:0981530009"),
         children: [
-            /*#__PURE__*/ jsx_runtime_.jsx("div", {
+            /*#__PURE__*/ (0,jsx_runtime_.jsx)("div", {
                 className: (Card_module_default()).boder
             }),
-            /*#__PURE__*/ jsx_runtime_.jsx("div", {
+            /*#__PURE__*/ (0,jsx_runtime_.jsx)("div", {
                 className: (Card_module_default()).image,
-                children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
+                children: /*#__PURE__*/ (0,jsx_runtime_.jsx)((image_default()), {
                     src: props.src,
                     alt: props.alt,
                     fill: true,
@@ -477,36 +477,36 @@ var navigation = __webpack_require__(9483);
                             /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
                                 className: (Card_module_default()).frame11,
                                 children: [
-                                    /*#__PURE__*/ jsx_runtime_.jsx(IconlyBoldLocation, {
+                                    /*#__PURE__*/ (0,jsx_runtime_.jsx)(IconlyBoldLocation, {
                                         className: (Card_module_default()).iconlyBoldLocation,
                                         classes: {
                                             location: (Card_module_default()).location
                                         },
                                         swap: {
-                                            location: /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                                            location: /*#__PURE__*/ (0,jsx_runtime_.jsx)("div", {
                                                 className: (Card_module_default()).location,
-                                                children: /*#__PURE__*/ jsx_runtime_.jsx(Card_LocationIcon_Memo, {
+                                                children: /*#__PURE__*/ (0,jsx_runtime_.jsx)(Card_LocationIcon_Memo, {
                                                     className: (Card_module_default()).icon
                                                 })
                                             })
                                         }
                                     }),
-                                    /*#__PURE__*/ jsx_runtime_.jsx("p", {
+                                    /*#__PURE__*/ (0,jsx_runtime_.jsx)("p", {
                                         className: (Card_module_default()).tPKonTum,
                                         children: props.location
                                     })
                                 ]
                             }),
-                            /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                            /*#__PURE__*/ (0,jsx_runtime_.jsx)("div", {
                                 className: (Card_module_default()).frame26,
-                                children: /*#__PURE__*/ jsx_runtime_.jsx("p", {
+                                children: /*#__PURE__*/ (0,jsx_runtime_.jsx)("p", {
                                     className: (Card_module_default()).mangEn,
                                     children: props.name
                                 })
                             })
                         ]
                     }),
-                    /*#__PURE__*/ jsx_runtime_.jsx("p", {
+                    /*#__PURE__*/ (0,jsx_runtime_.jsx)("p", {
                         className: (Card_module_default()).AtXe,
                         children: "Đặt xe"
                     })
@@ -876,13 +876,13 @@ function NextJsImage({ slide, rect }) {
     if (!isNextJsImage(slide)) return undefined;
     const width = !cover ? Math.round(Math.min(rect.width, rect.height / slide.height * slide.width)) : rect.width;
     const height = !cover ? Math.round(Math.min(rect.height, rect.width / slide.width * slide.height)) : rect.height;
-    return /*#__PURE__*/ jsx_runtime_.jsx("div", {
+    return /*#__PURE__*/ (0,jsx_runtime_.jsx)("div", {
         style: {
             position: "relative",
             width,
             height
         },
-        children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
+        children: /*#__PURE__*/ (0,jsx_runtime_.jsx)((image_default()), {
             fill: true,
             alt: "",
             src: slide,
@@ -921,12 +921,12 @@ const GallerySection = ()=>{
     const handleClick = (index, item)=>setIndex(index);
     return /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
         children: [
-            /*#__PURE__*/ jsx_runtime_.jsx(react_grid_gallery_esm/* Gallery */.ri, {
+            /*#__PURE__*/ (0,jsx_runtime_.jsx)(react_grid_gallery_esm/* Gallery */.ri, {
                 images: images_images,
                 enableImageSelection: false,
                 onClick: handleClick
             }),
-            /*#__PURE__*/ jsx_runtime_.jsx(dist/* default */.ZP, {
+            /*#__PURE__*/ (0,jsx_runtime_.jsx)(dist/* default */.ZP, {
                 slides: slides,
                 open: index >= 0,
                 index: index,
@@ -1029,19 +1029,19 @@ const ServiceCard = (props)=>{
     return /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
         className: `${(_serviceCard_module_default()).main} ${props.bgDark ? (_serviceCard_module_default()).bgDark : ""}`,
         children: [
-            /*#__PURE__*/ jsx_runtime_.jsx("div", {
+            /*#__PURE__*/ (0,jsx_runtime_.jsx)("div", {
                 className: `${(_serviceCard_module_default()).image}`,
-                children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
+                children: /*#__PURE__*/ (0,jsx_runtime_.jsx)((image_default()), {
                     src: props.src,
                     alt: props.alt,
                     fill: true
                 })
             }),
-            /*#__PURE__*/ jsx_runtime_.jsx("h5", {
+            /*#__PURE__*/ (0,jsx_runtime_.jsx)("h5", {
                 className: "mt-5",
                 children: props.title
             }),
-            /*#__PURE__*/ jsx_runtime_.jsx("p", {
+            /*#__PURE__*/ (0,jsx_runtime_.jsx)("p", {
                 className: "mt-8",
                 children: props.text
             })
@@ -1110,20 +1110,20 @@ function Home() {
                 id: "banner",
                 className: `${(page_module_default()).banner} flex flex-col justify-center items-center`,
                 children: [
-                    /*#__PURE__*/ jsx_runtime_.jsx("h1", {
+                    /*#__PURE__*/ (0,jsx_runtime_.jsx)("h1", {
                         children: "Bắt đầu chuyến đi của bạn ngay!"
                     }),
-                    /*#__PURE__*/ jsx_runtime_.jsx("br", {}),
-                    /*#__PURE__*/ jsx_runtime_.jsx("p", {
+                    /*#__PURE__*/ (0,jsx_runtime_.jsx)("br", {}),
+                    /*#__PURE__*/ (0,jsx_runtime_.jsx)("p", {
                         children: "Lập kế hoạch v\xe0 đặt chuyến đi ho\xe0n hảo của bạn với phương tiện, mẹo du lịch, th\xf4ng tin điểm đến v\xe0 nguồn cảm hứng từ ch\xfang t\xf4i!"
                     }),
                     /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
                         className: `mt-5 flex justify-center items-center`,
                         children: [
-                            /*#__PURE__*/ jsx_runtime_.jsx(PhoneButton, {
+                            /*#__PURE__*/ (0,jsx_runtime_.jsx)(PhoneButton, {
                                 phone: "0981 530 009"
                             }),
-                            /*#__PURE__*/ jsx_runtime_.jsx(PhoneButton, {
+                            /*#__PURE__*/ (0,jsx_runtime_.jsx)(PhoneButton, {
                                 phone: "0985 035 897"
                             })
                         ]
@@ -1133,13 +1133,13 @@ function Home() {
             /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
                 className: `${(page_module_default()).intro} grid lg:grid-cols-1 xl:grid-cols-2`,
                 children: [
-                    /*#__PURE__*/ jsx_runtime_.jsx(motion/* motion */.E.div, {
+                    /*#__PURE__*/ (0,jsx_runtime_.jsx)(motion/* motion */.E.div, {
                         className: `${(page_module_default()).left} flex-1 flex flex-col xl:justify-center items-center xl:items-end`,
                         variants: opacityVariants,
                         initial: "hide",
                         whileInView: "show",
                         exit: "hide",
-                        children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
+                        children: /*#__PURE__*/ (0,jsx_runtime_.jsx)((image_default()), {
                             src: "https://firebasestorage.googleapis.com/v0/b/anh-hieu-traveling.appspot.com/o/home%2Fbanner.png?alt=media&token=c5ceaf61-7d5a-421a-b89e-e7e6a3196fbd",
                             width: 648,
                             height: 594,
@@ -1153,12 +1153,12 @@ function Home() {
                         whileInView: "show",
                         exit: "hide",
                         children: [
-                            /*#__PURE__*/ jsx_runtime_.jsx(motion/* motion */.E.h3, {
+                            /*#__PURE__*/ (0,jsx_runtime_.jsx)(motion/* motion */.E.h3, {
                                 variants: translateYVariantsItem,
                                 className: "mb-4",
                                 children: "C\xe1c dịch vụ v\xe0 sự uy t\xedn m\xe0 ch\xfang t\xf4i mang lại."
                             }),
-                            /*#__PURE__*/ jsx_runtime_.jsx(motion/* motion */.E.span, {
+                            /*#__PURE__*/ (0,jsx_runtime_.jsx)(motion/* motion */.E.span, {
                                 variants: translateYVariantsItem,
                                 className: "mb-4",
                                 children: "Dịch vụ cho thu\xea xe v\xe0 tự l\xe1i linh hoạt, đa dạng về loại xe, đ\xe1p ứng mọi nhu cầu di chuyển của bạn tr\xean mọi cung đường đất nước. Với những d\xf2ng xe mới với thiết kế tinh tế v\xe0 c\xf4ng nghệ ti\xean tiến, mang đến trải nghiệm l\xe1i đỉnh cao v\xe0 phong c\xe1ch độc đ\xe1o. Hơn 10 năm kinh nghiệm l\xe1i xe, ch\xfang t\xf4i tự h\xe0o cung cấp dịch vụ chuy\xean nghiệp, an to\xe0n v\xe0 đ\xe1ng tin cậy để đồng h\xe0nh c\xf9ng bạn."
@@ -1169,10 +1169,10 @@ function Home() {
                                     /*#__PURE__*/ (0,jsx_runtime_.jsxs)(motion/* motion */.E.div, {
                                         variants: translateYVariantsItem,
                                         children: [
-                                            /*#__PURE__*/ jsx_runtime_.jsx("h4", {
+                                            /*#__PURE__*/ (0,jsx_runtime_.jsx)("h4", {
                                                 children: "10+"
                                             }),
-                                            /*#__PURE__*/ jsx_runtime_.jsx("p", {
+                                            /*#__PURE__*/ (0,jsx_runtime_.jsx)("p", {
                                                 children: "Năm kinh nghiệm l\xe1i xe"
                                             })
                                         ]
@@ -1180,10 +1180,10 @@ function Home() {
                                     /*#__PURE__*/ (0,jsx_runtime_.jsxs)(motion/* motion */.E.div, {
                                         variants: translateYVariantsItem,
                                         children: [
-                                            /*#__PURE__*/ jsx_runtime_.jsx("h4", {
+                                            /*#__PURE__*/ (0,jsx_runtime_.jsx)("h4", {
                                                 children: "20+"
                                             }),
-                                            /*#__PURE__*/ jsx_runtime_.jsx("p", {
+                                            /*#__PURE__*/ (0,jsx_runtime_.jsx)("p", {
                                                 children: "Điểm đến đ\xe3 đi"
                                             })
                                         ]
@@ -1191,10 +1191,10 @@ function Home() {
                                     /*#__PURE__*/ (0,jsx_runtime_.jsxs)(motion/* motion */.E.div, {
                                         variants: translateYVariantsItem,
                                         children: [
-                                            /*#__PURE__*/ jsx_runtime_.jsx("h4", {
+                                            /*#__PURE__*/ (0,jsx_runtime_.jsx)("h4", {
                                                 children: "3+"
                                             }),
-                                            /*#__PURE__*/ jsx_runtime_.jsx("p", {
+                                            /*#__PURE__*/ (0,jsx_runtime_.jsx)("p", {
                                                 children: "Phương tiện di chuyển"
                                             })
                                         ]
@@ -1202,10 +1202,10 @@ function Home() {
                                     /*#__PURE__*/ (0,jsx_runtime_.jsxs)(motion/* motion */.E.div, {
                                         variants: translateYVariantsItem,
                                         children: [
-                                            /*#__PURE__*/ jsx_runtime_.jsx("h4", {
+                                            /*#__PURE__*/ (0,jsx_runtime_.jsx)("h4", {
                                                 children: "32M+"
                                             }),
-                                            /*#__PURE__*/ jsx_runtime_.jsx("p", {
+                                            /*#__PURE__*/ (0,jsx_runtime_.jsx)("p", {
                                                 children: "H\xe0nh kh\xe1ch tin d\xf9ng"
                                             })
                                         ]
@@ -1219,7 +1219,7 @@ function Home() {
             /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
                 className: `${(page_module_default()).vehical}`,
                 children: [
-                    /*#__PURE__*/ jsx_runtime_.jsx(motion/* motion */.E.h3, {
+                    /*#__PURE__*/ (0,jsx_runtime_.jsx)(motion/* motion */.E.h3, {
                         variants: translateYVariants,
                         initial: "hide",
                         whileInView: "show",
@@ -1227,7 +1227,7 @@ function Home() {
                         className: "mb-4",
                         children: "Phương tiện di chuyển"
                     }),
-                    /*#__PURE__*/ jsx_runtime_.jsx(motion/* motion */.E.p, {
+                    /*#__PURE__*/ (0,jsx_runtime_.jsx)(motion/* motion */.E.p, {
                         variants: translateYVariants,
                         initial: "hide",
                         whileInView: "show",
@@ -1246,15 +1246,15 @@ function Home() {
                                 whileInView: "show",
                                 exit: "hide",
                                 children: [
-                                    /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
+                                    /*#__PURE__*/ (0,jsx_runtime_.jsx)((image_default()), {
                                         src: "https://firebasestorage.googleapis.com/v0/b/anh-hieu-traveling.appspot.com/o/vehical%2F4cho.jpg?alt=media&token=8674e99e-505c-4aee-b033-b1df0cc373d3",
                                         fill: true,
                                         alt: "Xe 4 chỗ"
                                     }),
-                                    /*#__PURE__*/ jsx_runtime_.jsx("h5", {
+                                    /*#__PURE__*/ (0,jsx_runtime_.jsx)("h5", {
                                         children: "Xe 4 chỗ"
                                     }),
-                                    /*#__PURE__*/ jsx_runtime_.jsx("a", {
+                                    /*#__PURE__*/ (0,jsx_runtime_.jsx)("a", {
                                         href: "#",
                                         children: "Xem th\xeam"
                                     })
@@ -1268,15 +1268,15 @@ function Home() {
                                 whileInView: "show",
                                 exit: "hide",
                                 children: [
-                                    /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
+                                    /*#__PURE__*/ (0,jsx_runtime_.jsx)((image_default()), {
                                         src: "https://firebasestorage.googleapis.com/v0/b/anh-hieu-traveling.appspot.com/o/vehical%2F7cho.jpg?alt=media&token=bb31db8a-d6fc-4408-8ca4-47f47edce177",
                                         fill: true,
                                         alt: "Xe 7 chỗ"
                                     }),
-                                    /*#__PURE__*/ jsx_runtime_.jsx("h5", {
+                                    /*#__PURE__*/ (0,jsx_runtime_.jsx)("h5", {
                                         children: "Xe 7 chỗ"
                                     }),
-                                    /*#__PURE__*/ jsx_runtime_.jsx("a", {
+                                    /*#__PURE__*/ (0,jsx_runtime_.jsx)("a", {
                                         href: "#",
                                         children: "Xem th\xeam"
                                     })
@@ -1290,15 +1290,15 @@ function Home() {
                                 whileInView: "show",
                                 exit: "hide",
                                 children: [
-                                    /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
+                                    /*#__PURE__*/ (0,jsx_runtime_.jsx)((image_default()), {
                                         src: "https://firebasestorage.googleapis.com/v0/b/anh-hieu-traveling.appspot.com/o/vehical%2F16cho.jpg?alt=media&token=7676b3c0-551a-413d-91cf-66f557d31ab1",
                                         fill: true,
                                         alt: "Xe 16 chỗ"
                                     }),
-                                    /*#__PURE__*/ jsx_runtime_.jsx("h5", {
+                                    /*#__PURE__*/ (0,jsx_runtime_.jsx)("h5", {
                                         children: "Xe 16 chỗ"
                                     }),
-                                    /*#__PURE__*/ jsx_runtime_.jsx("a", {
+                                    /*#__PURE__*/ (0,jsx_runtime_.jsx)("a", {
                                         href: "#",
                                         children: "Xem th\xeam"
                                     })
@@ -1312,15 +1312,15 @@ function Home() {
                                 whileInView: "show",
                                 exit: "hide",
                                 children: [
-                                    /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
+                                    /*#__PURE__*/ (0,jsx_runtime_.jsx)((image_default()), {
                                         src: "https://firebasestorage.googleapis.com/v0/b/anh-hieu-traveling.appspot.com/o/vehical%2F29cho-2.jpg?alt=media&token=105a570b-bfe9-4df8-9694-349632ea573b",
                                         fill: true,
                                         alt: "Xe 29 chỗ"
                                     }),
-                                    /*#__PURE__*/ jsx_runtime_.jsx("h5", {
+                                    /*#__PURE__*/ (0,jsx_runtime_.jsx)("h5", {
                                         children: "Xe 29 chỗ"
                                     }),
-                                    /*#__PURE__*/ jsx_runtime_.jsx("a", {
+                                    /*#__PURE__*/ (0,jsx_runtime_.jsx)("a", {
                                         href: "#",
                                         children: "Xem th\xeam"
                                     })
@@ -1333,7 +1333,7 @@ function Home() {
             /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
                 className: `${(page_module_default()).service}`,
                 children: [
-                    /*#__PURE__*/ jsx_runtime_.jsx(motion/* motion */.E.h3, {
+                    /*#__PURE__*/ (0,jsx_runtime_.jsx)(motion/* motion */.E.h3, {
                         variants: translateYVariants,
                         initial: "hide",
                         whileInView: "show",
@@ -1341,7 +1341,7 @@ function Home() {
                         className: "mb-4",
                         children: "Cứ để ch\xfang t\xf4i lo"
                     }),
-                    /*#__PURE__*/ jsx_runtime_.jsx(motion/* motion */.E.p, {
+                    /*#__PURE__*/ (0,jsx_runtime_.jsx)(motion/* motion */.E.p, {
                         variants: translateYVariants,
                         initial: "hide",
                         whileInView: "show",
@@ -1356,13 +1356,13 @@ function Home() {
                         exit: "hide",
                         className: `${(page_module_default()).serviceList} mt-10 grid lg:grid-cols-1 xl:grid-cols-3 gap-10`,
                         children: [
-                            /*#__PURE__*/ jsx_runtime_.jsx(motion/* motion */.E.div, {
+                            /*#__PURE__*/ (0,jsx_runtime_.jsx)(motion/* motion */.E.div, {
                                 variants: translateYVariants,
                                 initial: "hide",
                                 whileInView: "show",
                                 exit: "hide",
                                 className: `place-self-center`,
-                                children: /*#__PURE__*/ jsx_runtime_.jsx(ServiceCard, {
+                                children: /*#__PURE__*/ (0,jsx_runtime_.jsx)(ServiceCard, {
                                     src: "/assets/service-1.png",
                                     alt: "Thu\xea v\xe0 cho thu\xea",
                                     bgDark: true,
@@ -1370,13 +1370,13 @@ function Home() {
                                     text: "Chuy\xean cho thu\xea xe c\xf3 t\xe0i v\xe0 thu\xea xe tự l\xe1i."
                                 })
                             }),
-                            /*#__PURE__*/ jsx_runtime_.jsx(motion/* motion */.E.div, {
+                            /*#__PURE__*/ (0,jsx_runtime_.jsx)(motion/* motion */.E.div, {
                                 variants: translateYVariants,
                                 initial: "hide",
                                 whileInView: "show",
                                 exit: "hide",
                                 className: `place-self-center`,
-                                children: /*#__PURE__*/ jsx_runtime_.jsx(ServiceCard, {
+                                children: /*#__PURE__*/ (0,jsx_runtime_.jsx)(ServiceCard, {
                                     src: "/assets/service-2.png",
                                     alt: "Booking nơi ở",
                                     bgDark: false,
@@ -1384,13 +1384,13 @@ function Home() {
                                     text: "Hỗ trợ booking kh\xe1ch sạn, homstay, nh\xe0 h\xe0ng."
                                 })
                             }),
-                            /*#__PURE__*/ jsx_runtime_.jsx(motion/* motion */.E.div, {
+                            /*#__PURE__*/ (0,jsx_runtime_.jsx)(motion/* motion */.E.div, {
                                 variants: translateYVariants,
                                 initial: "hide",
                                 whileInView: "show",
                                 exit: "hide",
                                 className: `place-self-center`,
-                                children: /*#__PURE__*/ jsx_runtime_.jsx(ServiceCard, {
+                                children: /*#__PURE__*/ (0,jsx_runtime_.jsx)(ServiceCard, {
                                     src: "/assets/service-3.png",
                                     alt: "Nhận hợp đồng",
                                     bgDark: true,
@@ -1405,7 +1405,7 @@ function Home() {
             /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
                 className: `${(page_module_default()).location}`,
                 children: [
-                    /*#__PURE__*/ jsx_runtime_.jsx(motion/* motion */.E.h3, {
+                    /*#__PURE__*/ (0,jsx_runtime_.jsx)(motion/* motion */.E.h3, {
                         variants: translateYVariants,
                         initial: "hide",
                         whileInView: "show",
@@ -1413,7 +1413,7 @@ function Home() {
                         className: "mb-4",
                         children: "Địa chỉ văn ph\xf2ng, nh\xe0 xe"
                     }),
-                    /*#__PURE__*/ jsx_runtime_.jsx(motion/* motion */.E.p, {
+                    /*#__PURE__*/ (0,jsx_runtime_.jsx)(motion/* motion */.E.p, {
                         variants: translateYVariants,
                         initial: "hide",
                         whileInView: "show",
@@ -1421,15 +1421,15 @@ function Home() {
                         className: "mb-8",
                         children: "Địa chỉ văn ph\xf2ng, nh\xe0 xe thuận tiện cho việc đưa đ\xf3n"
                     }),
-                    /*#__PURE__*/ jsx_runtime_.jsx(motion/* motion */.E.div, {
+                    /*#__PURE__*/ (0,jsx_runtime_.jsx)(motion/* motion */.E.div, {
                         className: `${(page_module_default()).mapouter}`,
                         variants: opacityVariants,
                         initial: "hide",
                         whileInView: "show",
                         exit: "hide",
-                        children: /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                        children: /*#__PURE__*/ (0,jsx_runtime_.jsx)("div", {
                             className: "gmap_canvas",
-                            children: /*#__PURE__*/ jsx_runtime_.jsx("iframe", {
+                            children: /*#__PURE__*/ (0,jsx_runtime_.jsx)("iframe", {
                                 className: "gmap_iframe",
                                 width: "100%",
                                 height: "700px",
@@ -1443,23 +1443,23 @@ function Home() {
             /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
                 className: `${(page_module_default()).popular}`,
                 children: [
-                    /*#__PURE__*/ jsx_runtime_.jsx(motion/* motion */.E.h3, {
+                    /*#__PURE__*/ (0,jsx_runtime_.jsx)(motion/* motion */.E.h3, {
                         className: "mb-4",
                         children: "Địa điểm d\xe0nh cho bạn"
                     }),
-                    /*#__PURE__*/ jsx_runtime_.jsx(motion/* motion */.E.p, {
+                    /*#__PURE__*/ (0,jsx_runtime_.jsx)(motion/* motion */.E.p, {
                         className: "mb-8",
                         children: "Trải nghiệm c\xe1c địa điểm th\xfa vị tại Việt Nam, đặc biệt l\xe0 T\xe2y Nguy\xean với vẻ đẹp h\xf9ng vĩ."
                     }),
-                    /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                    /*#__PURE__*/ (0,jsx_runtime_.jsx)("div", {
                         className: `${(page_module_default()).popularList} mt-6 grid lg:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4 gap-4`,
-                        children: locationsConst.map((e)=>/*#__PURE__*/ jsx_runtime_.jsx(motion/* motion */.E.div, {
+                        children: locationsConst.map((e)=>/*#__PURE__*/ (0,jsx_runtime_.jsx)(motion/* motion */.E.div, {
                                 variants: translateYVariants,
                                 initial: "hide",
                                 whileInView: "show",
                                 exit: "hide",
                                 className: "place-self-center",
-                                children: /*#__PURE__*/ jsx_runtime_.jsx(Card, {
+                                children: /*#__PURE__*/ (0,jsx_runtime_.jsx)(Card, {
                                     id: e.id,
                                     src: e.thumnail,
                                     alt: e.name,
@@ -1473,7 +1473,7 @@ function Home() {
             /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
                 className: `${(page_module_default()).images}`,
                 children: [
-                    /*#__PURE__*/ jsx_runtime_.jsx(motion/* motion */.E.h3, {
+                    /*#__PURE__*/ (0,jsx_runtime_.jsx)(motion/* motion */.E.h3, {
                         variants: translateYVariants,
                         initial: "hide",
                         whileInView: "show",
@@ -1481,7 +1481,7 @@ function Home() {
                         className: "mb-4",
                         children: "H\xecnh ảnh trải nghiệm thực tế"
                     }),
-                    /*#__PURE__*/ jsx_runtime_.jsx(motion/* motion */.E.p, {
+                    /*#__PURE__*/ (0,jsx_runtime_.jsx)(motion/* motion */.E.p, {
                         variants: translateYVariants,
                         initial: "hide",
                         whileInView: "show",
@@ -1489,13 +1489,13 @@ function Home() {
                         className: "mb-8",
                         children: "Những h\xecnh ảnh nơi m\xe0 ch\xfang t\xf4i đ\xe3 trải nghiệm c\xf9ng c\xe1c đo\xe0n kh\xe1ch ở khắp mọi nơi"
                     }),
-                    /*#__PURE__*/ jsx_runtime_.jsx(motion/* motion */.E.div, {
+                    /*#__PURE__*/ (0,jsx_runtime_.jsx)(motion/* motion */.E.div, {
                         className: `${(page_module_default()).gallery}`,
                         variants: opacityVariants,
                         initial: "hide",
                         whileInView: "show",
                         exit: "hide",
-                        children: /*#__PURE__*/ jsx_runtime_.jsx(GallerySection, {})
+                        children: /*#__PURE__*/ (0,jsx_runtime_.jsx)(GallerySection, {})
                     })
                 ]
             })
@@ -1663,7 +1663,7 @@ const __default__ = proxy.default;
 var __webpack_require__ = require("../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [697,605,837,375], () => (__webpack_exec__(9737)));
+var __webpack_exports__ = __webpack_require__.X(0, [697,605,837,461], () => (__webpack_exec__(9737)));
 module.exports = __webpack_exports__;
 
 })();
