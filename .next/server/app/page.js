@@ -284,11 +284,11 @@ __webpack_require__.r(__webpack_exports__);
 /***/ 226:
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 7008))
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 1295))
 
 /***/ }),
 
-/***/ 7008:
+/***/ 1295:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -1090,8 +1090,38 @@ const translateYVariantsItem = {
     }
 };
 
+// EXTERNAL MODULE: ./src/components/scrollDown/_scrollDown.module.css
+var _scrollDown_module = __webpack_require__(5121);
+var _scrollDown_module_default = /*#__PURE__*/__webpack_require__.n(_scrollDown_module);
+;// CONCATENATED MODULE: ./src/components/scrollDown/_scrollDown.tsx
+
+
+const ScrollDown = ()=>{
+    return /*#__PURE__*/ (0,jsx_runtime_.jsx)("div", {
+        className: `${(_scrollDown_module_default()).main}`,
+        children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("svg", {
+            className: `${(_scrollDown_module_default()).arrows}`,
+            children: [
+                /*#__PURE__*/ (0,jsx_runtime_.jsx)("path", {
+                    className: `${(_scrollDown_module_default()).a1}`,
+                    d: "M0 0 L30 32 L60 0"
+                }),
+                /*#__PURE__*/ (0,jsx_runtime_.jsx)("path", {
+                    className: `${(_scrollDown_module_default()).a2}`,
+                    d: "M0 20 L30 52 L60 20"
+                }),
+                /*#__PURE__*/ (0,jsx_runtime_.jsx)("path", {
+                    className: `${(_scrollDown_module_default()).a3}`,
+                    d: "M0 40 L30 72 L60 40"
+                })
+            ]
+        })
+    });
+};
+
 ;// CONCATENATED MODULE: ./src/app/page.tsx
 /* __next_internal_client_entry_do_not_use__ default auto */ 
+
 
 
 
@@ -1498,7 +1528,8 @@ function Home() {
                         children: /*#__PURE__*/ (0,jsx_runtime_.jsx)(GallerySection, {})
                     })
                 ]
-            })
+            }),
+            /*#__PURE__*/ (0,jsx_runtime_.jsx)(ScrollDown, {})
         ]
     });
 }
@@ -1612,6 +1643,22 @@ module.exports = {
 // Exports
 module.exports = {
 	"clapyResets": "_resets_clapyResets__ysp_u"
+};
+
+
+/***/ }),
+
+/***/ 5121:
+/***/ ((module) => {
+
+// Exports
+module.exports = {
+	"main": "_scrollDown_main__YPNyA",
+	"arrows": "_scrollDown_arrows__k3NMc",
+	"arrow": "_scrollDown_arrow__wkX6x",
+	"a1": "_scrollDown_a1__DdRJ2",
+	"a2": "_scrollDown_a2__eioTn",
+	"a3": "_scrollDown_a3__47Wz1"
 };
 
 

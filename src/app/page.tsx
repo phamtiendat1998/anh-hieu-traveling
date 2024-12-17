@@ -9,6 +9,7 @@ import { ServiceCard } from '@/components/serviceCard/_serviceCard';
 import { motion } from 'framer-motion';
 import { opacityVariants } from '@/var/_opacity.variant';
 import { translateYVariants, translateYVariantsItem } from '@/var/_translateY.variant';
+import { ScrollDown } from '@/components/scrollDown/_scrollDown';
 
 export default function Home() {
   return (
@@ -206,7 +207,7 @@ export default function Home() {
         </motion.div>
       </div>
 
-      {/* <ScrollDown></ScrollDown> */}
+      <ScrollDown></ScrollDown>
     </main >
   )
 }
