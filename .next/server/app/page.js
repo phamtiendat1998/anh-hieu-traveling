@@ -527,13 +527,14 @@ const images_images = [
         height: 144,
         caption: "Ảnh 1"
     },
-    {
-        src: "https://firebasestorage.googleapis.com/v0/b/anh-hieu-traveling.appspot.com/o/xe%2F1f83e871fa14284a7105.jpg?alt=media&token=3951de67-e13f-4c21-be82-1ca8693c1a4e",
-        original: "https://firebasestorage.googleapis.com/v0/b/anh-hieu-traveling.appspot.com/o/xe%2F1f83e871fa14284a7105.jpg?alt=media&token=3951de67-e13f-4c21-be82-1ca8693c1a4e",
-        width: 240,
-        height: 320,
-        caption: "Ảnh 2"
-    },
+    // {
+    //   src: "https://firebasestorage.googleapis.com/v0/b/anh-hieu-traveling.appspot.com/o/xe%2F1f83e871fa14284a7105.jpg?alt=media&token=3951de67-e13f-4c21-be82-1ca8693c1a4e",
+    //   original:
+    //     "https://firebasestorage.googleapis.com/v0/b/anh-hieu-traveling.appspot.com/o/xe%2F1f83e871fa14284a7105.jpg?alt=media&token=3951de67-e13f-4c21-be82-1ca8693c1a4e",
+    //   width: 240,
+    //   height: 320,
+    //   caption: "Ảnh 2",
+    // },
     {
         src: "https://firebasestorage.googleapis.com/v0/b/anh-hieu-traveling.appspot.com/o/xe%2F2cca1b2c0949db178258.jpg?alt=media&token=138bc08d-45c3-42e9-8edf-8d68a7119afd",
         original: "https://firebasestorage.googleapis.com/v0/b/anh-hieu-traveling.appspot.com/o/xe%2F2cca1b2c0949db178258.jpg?alt=media&token=138bc08d-45c3-42e9-8edf-8d68a7119afd",
@@ -562,13 +563,14 @@ const images_images = [
         height: 320,
         caption: "Ảnh 6"
     },
-    {
-        src: "https://firebasestorage.googleapis.com/v0/b/anh-hieu-traveling.appspot.com/o/xe%2F5dcea836ba53680d3142.jpg?alt=media&token=8917f1e2-b970-4f69-b3d4-522f106edc11",
-        original: "https://firebasestorage.googleapis.com/v0/b/anh-hieu-traveling.appspot.com/o/xe%2F5dcea836ba53680d3142.jpg?alt=media&token=8917f1e2-b970-4f69-b3d4-522f106edc11",
-        width: 240,
-        height: 320,
-        caption: "Ảnh 7"
-    },
+    // {
+    //   src: "https://firebasestorage.googleapis.com/v0/b/anh-hieu-traveling.appspot.com/o/xe%2F5dcea836ba53680d3142.jpg?alt=media&token=8917f1e2-b970-4f69-b3d4-522f106edc11",
+    //   original:
+    //     "https://firebasestorage.googleapis.com/v0/b/anh-hieu-traveling.appspot.com/o/xe%2F5dcea836ba53680d3142.jpg?alt=media&token=8917f1e2-b970-4f69-b3d4-522f106edc11",
+    //   width: 240,
+    //   height: 320,
+    //   caption: "Ảnh 7",
+    // },
     {
         src: "https://firebasestorage.googleapis.com/v0/b/anh-hieu-traveling.appspot.com/o/xe%2F6a84436251078359da16.jpg?alt=media&token=1b8c0d54-737a-48cd-9897-15dd4bff5f4f",
         original: "https://firebasestorage.googleapis.com/v0/b/anh-hieu-traveling.appspot.com/o/xe%2F6a84436251078359da16.jpg?alt=media&token=1b8c0d54-737a-48cd-9897-15dd4bff5f4f",
